@@ -1,0 +1,146 @@
+table 'housing_market_intelligence_platform vw_2024_average_market_profile'
+	lineageTag: 4e7971cc-f413-48fd-be41-047143faf89d
+
+	measure 'Average Home Price' = MAX('housing_market_intelligence_platform vw_2024_average_market_profile'[avg_sale_price])
+		formatString: $#,0
+		lineageTag: 965efba6-1d2a-460b-8f4d-235cca2f2737
+
+	measure 'Average Monthly Rent' = MAX('housing_market_intelligence_platform vw_2024_average_market_profile'[avg_rent])
+		formatString: $#,0
+		lineageTag: c76afc7b-1ca5-498b-8fa7-03d7d1287347
+
+	measure 'Median Household Income' = MAX('housing_market_intelligence_platform vw_2024_average_market_profile'[avg_median_household_income])
+		formatString: $#,0
+		lineageTag: b7aca140-8454-4395-a4e7-b6334c681908
+
+	measure 'Average Mortgage Rate' = MAX('housing_market_intelligence_platform vw_2024_average_market_profile'[avg_mortgage_rate]) / 100
+		formatString: 0.00%
+		lineageTag: e3fefe5d-61ca-4469-a01e-eb6c9e896248
+
+	measure 'Average Months of Supply' = MAX('housing_market_intelligence_platform vw_2024_average_market_profile'[avg_months_of_supply])
+		formatString: 0.00
+		lineageTag: d7c71290-c1c1-4ba1-a283-38abf6489033
+
+	measure 'Average Days on Market' = MAX('housing_market_intelligence_platform vw_2024_average_market_profile'[avg_days_on_market])
+		formatString: 0
+		lineageTag: 0f43cfe6-be64-4dd6-b0bc-2055ace2eff0
+
+	measure 'Average Monthly Homes Sold' = MAX('housing_market_intelligence_platform vw_2024_average_market_profile'[avg_monthly_homes_sold])
+		formatString: #,0
+		lineageTag: f99c4262-3a46-4879-9e82-553ecbee7981
+
+	measure 'Average Inventory' = MAX('housing_market_intelligence_platform vw_2024_average_market_profile'[avg_inventory])
+		formatString: #,0
+		lineageTag: d4beede6-9add-408d-ac66-1bbc3f6ee111
+
+	column market_summary
+		dataType: string
+		lineageTag: 6e0f20a3-6d60-4301-9d7f-f4b4d8ad206b
+		summarizeBy: none
+		sourceColumn: market_summary
+
+		annotation SummarizationSetBy = Automatic
+
+	column markets_included
+		dataType: int64
+		formatString: 0
+		lineageTag: e74f2378-710b-4e75-864c-4c916f3574fe
+		summarizeBy: none
+		sourceColumn: markets_included
+
+		annotation SummarizationSetBy = Automatic
+
+	column avg_sale_price
+		dataType: double
+		lineageTag: a68868e9-89fa-467f-91c6-89858454e752
+		summarizeBy: none
+		sourceColumn: avg_sale_price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column avg_rent
+		dataType: double
+		lineageTag: 7b48559c-feb1-4685-98d1-689aa97b7334
+		summarizeBy: none
+		sourceColumn: avg_rent
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column avg_median_household_income
+		dataType: double
+		lineageTag: 6daf66a3-5dbe-442f-9424-7f905fecd7ae
+		summarizeBy: none
+		sourceColumn: avg_median_household_income
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column avg_monthly_homes_sold
+		dataType: double
+		lineageTag: 5349a6cf-b213-4409-ab22-c4c7b1628925
+		summarizeBy: none
+		sourceColumn: avg_monthly_homes_sold
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column avg_inventory
+		dataType: double
+		lineageTag: 6b3273aa-99f1-460a-bfed-7016e2b36c65
+		summarizeBy: none
+		sourceColumn: avg_inventory
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column avg_days_on_market
+		dataType: double
+		lineageTag: a69f6657-b9b0-4174-b785-dc73ad642f93
+		summarizeBy: none
+		sourceColumn: avg_days_on_market
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column avg_months_of_supply
+		dataType: double
+		lineageTag: 8702a7cd-decf-4278-ad6a-544f8d143990
+		summarizeBy: none
+		sourceColumn: avg_months_of_supply
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column avg_mortgage_rate
+		dataType: double
+		lineageTag: cedc2424-2a84-442f-ad0b-eb874861103d
+		summarizeBy: none
+		sourceColumn: avg_mortgage_rate
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'housing_market_intelligence_platform vw_2024_average_market_profile' = m
+		mode: import
+		source =
+				let
+				    Source = MySQL.Database("localhost", "housing_market_intelligence_platform", [ReturnSingleDatabase=true]),
+				    housing_market_intelligence_platform_vw_2024_average_market_profile = Source{[Schema="housing_market_intelligence_platform",Item="vw_2024_average_market_profile"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(housing_market_intelligence_platform_vw_2024_average_market_profile,{{"avg_sale_price", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

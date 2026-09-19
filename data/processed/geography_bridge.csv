@@ -1,0 +1,379 @@
+redfin_region_id,zillow_region_id,geo_id,region_name_redfin,region_name_zillow,geo_name,geography_type,parent_metro_code,latitude,longitude
+10180,394299,10180,"Abilene, TX metro area","Abilene, TX","Abilene, TX",metro,,32.4520222,-99.7187428
+10420,394304,10420,"Akron, OH metro area","Akron, OH","Akron, OH",metro,,41.1466395,-81.3501104
+10500,394306,10500,"Albany, GA metro area","Albany, GA","Albany, GA",metro,,31.6446859,-84.1107184
+10540,394307,10540,"Albany, OR metro area","Albany, OR","Albany, OR",metro,,44.4888982,-122.5372084
+10580,394308,10580,"Albany, NY metro area","Albany, NY","Albany-Schenectady-Troy, NY",metro,,42.7879202,-73.9423479
+10740,394312,10740,"Albuquerque, NM metro area","Albuquerque, NM","Albuquerque, NM",metro,,35.1234965,-106.4583918
+10780,394314,10780,"Alexandria, LA metro area","Alexandria, LA","Alexandria, LA",metro,,31.3253478,-92.5468034
+10900,394318,10900,"Allentown, PA metro area","Allentown, PA","Allentown-Bethlehem-Easton, PA-NJ",metro,,40.7893392,-75.398158
+11020,394321,11020,"Altoona, PA metro area","Altoona, PA","Altoona, PA",metro,,40.4986828,-78.309597
+11100,394323,11100,"Amarillo, TX metro area","Amarillo, TX","Amarillo, TX",metro,,35.2479988,-101.9086699
+11180,394325,11180,"Ames, IA metro area","Ames, IA","Ames, IA",metro,,42.0361281,-93.6980079
+11260,394327,11260,"Anchorage, AK metro area","Anchorage, AK","Anchorage, AK",metro,,62.2127844,-149.6782218
+11460,394332,11460,"Ann Arbor, MI metro area","Ann Arbor, MI","Ann Arbor, MI",metro,,42.2522168,-83.8434233
+11500,394333,11500,"Anniston, AL metro area","Anniston, AL","Anniston-Oxford, AL",metro,,33.7705162,-85.8279089
+11540,394334,11540,"Appleton, WI metro area","Appleton, WI","Appleton, WI",metro,,44.2906032,-88.3723255
+11700,394338,11700,"Asheville, NC metro area","Asheville, NC","Asheville, NC",metro,,35.6163405,-82.5706835
+12020,394346,12020,"Athens, GA metro area","Athens, GA","Athens-Clarke County, GA",metro,,33.943984,-83.2138965
+12060,394347,12060,"Atlanta, GA metro area","Atlanta, GA","Atlanta-Sandy Springs-Roswell, GA",metro,,33.7324018,-84.3928478
+12100,394348,12100,"Atlantic City, NJ metro area","Atlantic City, NJ","Atlantic City-Hammonton, NJ",metro,,39.2861857,-74.7383113
+12220,394351,12220,"Auburn, AL metro area","Auburn, AL","Auburn-Opelika, AL",metro,,32.4922058,-85.5271267
+12260,394352,12260,"Augusta, GA metro area","Augusta, GA","Augusta-Richmond County, GA-SC",metro,,33.4603713,-81.9828327
+12420,394355,12420,"Austin, TX metro area","Austin, TX","Austin-Round Rock-San Marcos, TX",metro,,30.2497437,-97.6498417
+12540,394357,12540,"Bakersfield, CA metro area","Bakersfield, CA","Bakersfield-Delano, CA",metro,,35.3466288,-118.7295064
+12580,394358,12580,"Baltimore, MD metro area","Baltimore, MD","Baltimore-Columbia-Towson, MD",metro,,39.304361,-76.5495009
+12620,394359,12620,"Bangor, ME metro area","Bangor, ME","Bangor, ME",metro,,45.4092843,-68.666616
+12700,394361,12700,"Barnstable Town, MA metro area","Barnstable Town, MA","Barnstable Town, MA",metro,,41.7061233,-70.1648227
+12940,394367,12940,"Baton Rouge, LA metro area","Baton Rouge, LA","Baton Rouge, LA",metro,,30.5152419,-91.1269263
+12980,394368,12980,"Battle Creek, MI metro area","Battle Creek, MI","Battle Creek, MI",metro,,42.2429896,-85.0123853
+13020,394369,13020,"Bay City, MI metro area","Bay City, MI","Bay City, MI",metro,,43.6997112,-83.9787007
+13140,394372,13140,"Beaumont, TX metro area","Beaumont, TX","Beaumont-Port Arthur, TX",metro,,30.0759278,-94.2027049
+13220,394374,13220,"Beckley, WV metro area","Beckley, WV","Beckley, WV",metro,,37.9056593,-81.1637481
+13380,394378,13380,"Bellingham, WA metro area","Bellingham, WA","Bellingham, WA",metro,,48.8426531,-121.8364325
+13460,394380,13460,"Bend, OR metro area","Bend, OR","Bend, OR",metro,,44.1538371,-120.8870717
+13740,394386,13740,"Billings, MT metro area","Billings, MT","Billings, MT",metro,,45.6371402,-108.8323611
+13780,394387,13780,"Binghamton, NY metro area","Binghamton, NY","Binghamton, NY",metro,,42.1639276,-76.0229431
+13820,394388,13820,"Birmingham, AL metro area","Birmingham, AL","Birmingham, AL",metro,,33.4623718,-86.8143378
+13900,394390,13900,"Bismarck, ND metro area","Bismarck, ND","Bismarck, ND",metro,,46.887031,-100.979592
+13980,394392,13980,"Blacksburg, VA metro area","Blacksburg, VA","Blacksburg-Christiansburg-Radford, VA",metro,,37.1213643,-80.5315166
+14010,753869,14010,"Bloomington, IL metro area","Bloomington, IL","Bloomington, IL",metro,,40.4945594,-88.8445391
+14020,394393,14020,"Bloomington, IN metro area","Bloomington, IN","Bloomington, IN",metro,,39.2417362,-86.6717544
+14260,394399,14260,"Boise City, ID metro area","Boise City, ID","Boise City, ID",metro,,43.0066485,-116.1419089
+14454,394404,14454,"Boston, MA metro area","Boston, MA","Boston, MA",division,14460,42.0625498,-70.8754261
+14500,394405,14500,"Boulder, CO metro area","Boulder, CO","Boulder, CO",metro,,40.0949712,-105.3977104
+14540,394406,14540,"Bowling Green, KY metro area","Bowling Green, KY","Bowling Green, KY",metro,,37.0468044,-86.3973979
+14580,394407,14580,"Bozeman, MT metro area","Bozeman, MT","Bozeman, MT",metro,,45.5180536,-111.1639214
+14740,394412,14740,"Bremerton, WA metro area","Bremerton, WA","Bremerton-Silverdale-Port Orchard, WA",metro,,47.6396874,-122.6496358
+14860,394415,14860,"Bridgeport, CT metro area","Bridgeport, CT","Bridgeport-Stamford-Danbury, CT",metro,,41.2524425,-73.3932662
+15180,394421,15180,"Brownsville, TX metro area","Brownsville, TX","Brownsville-Harlingen, TX",metro,,26.1029227,-97.4789584
+15260,394423,15260,"Brunswick, GA metro area","Brunswick, GA","Brunswick-St. Simons, GA",metro,,31.3017391,-81.5889087
+15380,394425,15380,"Buffalo, NY metro area","Buffalo, NY","Buffalo-Cheektowaga, NY",metro,,43.0443711,-78.7773351
+15500,394428,15500,"Burlington, NC metro area","Burlington, NC","Burlington, NC",metro,,36.0439535,-79.4005733
+15540,394429,15540,"Burlington, VT metro area","Burlington, VT","Burlington-South Burlington, VT",metro,,44.6891146,-73.0411754
+15940,394439,15940,"Canton, OH metro area","Canton, OH","Canton-Massillon, OH",metro,,40.7110505,-81.261468
+15980,394440,15980,"Cape Coral, FL metro area","Cape Coral, FL","Cape Coral-Fort Myers, FL",metro,,26.5632731,-81.9841817
+16020,394441,16020,"Cape Girardeau, MO metro area","Cape Girardeau, MO","Cape Girardeau, MO-IL",metro,,37.3259361,-89.7626388
+16180,394444,16180,"Carson City, NV metro area","Carson City, NV","Carson City, NV",metro,,39.1530598,-119.7473681
+16220,394445,16220,"Casper, WY metro area","Casper, WY","Casper, WY",metro,,42.9776447,-106.7682192
+16300,394447,16300,"Cedar Rapids, IA metro area","Cedar Rapids, IA","Cedar Rapids, IA",metro,,42.0862886,-91.6310949
+16540,394453,16540,"Chambersburg, PA metro area","Chambersburg, PA","Chambersburg, PA",metro,,39.9267722,-77.7245208
+16580,394454,16580,"Champaign, IL metro area","Champaign, IL","Champaign-Urbana, IL",metro,,40.2344885,-88.2986226
+16620,394455,16620,"Charleston, WV metro area","Charleston, WV","Charleston, WV",metro,,38.2832126,-81.4925567
+16700,394457,16700,"Charleston, SC metro area","Charleston, SC","Charleston-North Charleston, SC",metro,,33.0175399,-80.0099468
+16740,394458,16740,"Charlotte, NC metro area","Charlotte, NC","Charlotte-Concord-Gastonia, NC-SC",metro,,35.1663423,-80.7972848
+16820,394459,16820,"Charlottesville, VA metro area","Charlottesville, VA","Charlottesville, VA",metro,,37.9490837,-78.5932062
+16860,394460,16860,"Chattanooga, TN metro area","Chattanooga, TN","Chattanooga, TN-GA",metro,,35.0493612,-85.3611582
+16940,394462,16940,"Cheyenne, WY metro area","Cheyenne, WY","Cheyenne, WY",metro,,41.2928302,-104.660395
+16984,394463,16984,"Chicago, IL metro area","Chicago, IL","Chicago-Naperville-Schaumburg, IL",division,16980,41.7921868,-87.9717839
+17020,394464,17020,"Chico, CA metro area","Chico, CA","Chico, CA",metro,,39.6653362,-121.6032086
+17140,394466,17140,"Cincinnati, OH metro area","Cincinnati, OH","Cincinnati, OH-KY-IN",metro,,39.0785953,-84.463535
+17300,394471,17300,"Clarksville, TN metro area","Clarksville, TN","Clarksville, TN-KY",metro,,36.6957098,-87.6243072
+17420,394474,17420,"Cleveland, TN metro area","Cleveland, TN","Cleveland, TN",metro,,35.1381174,-84.6550787
+17660,394480,17660,"Coeur d'Alene, ID metro area","Coeur d'Alene, ID","Coeur d'Alene, ID",metro,,47.6759569,-116.6959192
+17780,394483,17780,"College Station, TX metro area","College Station, TX","College Station-Bryan, TX",metro,,30.7543917,-96.4885368
+17820,394484,17820,"Colorado Springs, CO metro area","Colorado Springs, CO","Colorado Springs, CO",metro,,38.8455072,-104.6387277
+17860,394485,17860,"Columbia, MO metro area","Columbia, MO","Columbia, MO",metro,,38.9865231,-92.5852358
+17900,394486,17900,"Columbia, SC metro area","Columbia, SC","Columbia, SC",metro,,34.0775845,-81.0378453
+17980,394488,17980,"Columbus, GA metro area","Columbus, GA","Columbus, GA-AL",metro,,32.4193768,-84.8437095
+18020,394489,18020,"Columbus, IN metro area","Columbus, IN","Columbus, IN",metro,,39.205843,-85.8979988
+18140,394492,18140,"Columbus, OH metro area","Columbus, OH","Columbus, OH",metro,,39.9685617,-82.8359105
+18580,394502,18580,"Corpus Christi, TX metro area","Corpus Christi, TX","Corpus Christi, TX",metro,,27.8948171,-97.4016678
+18700,394505,18700,"Corvallis, OR metro area","Corvallis, OR","Corvallis, OR",metro,,44.4938816,-123.4246641
+18880,753875,18880,"Crestview, FL metro area","Crestview, FL","Crestview-Fort Walton Beach-Destin, FL",metro,,30.5949415,-86.3581638
+19124,394514,19124,"Dallas, TX metro area","Dallas, TX","Dallas-Plano-Irving, TX",division,19100,32.874522,-96.6133896
+19140,394515,19140,"Dalton, GA metro area","Dalton, GA","Dalton, GA",metro,,34.7969557,-84.856279
+19300,394519,19300,"Daphne, AL metro area","Daphne, AL","Daphne-Fairhope-Foley, AL",metro,,30.6592183,-87.7460666
+19340,394520,19340,"Davenport, IA metro area","Davenport, IA","Davenport-Moline-Rock Island, IA-IL",metro,,41.3916799,-90.460076
+19430,845158,19430,"Dayton, OH metro area","Dayton, OH","Dayton-Kettering-Beavercreek, OH",metro,,39.8297456,-84.1409921
+19460,394523,19460,"Decatur, AL metro area","Decatur, AL","Decatur, AL",metro,,34.4893614,-87.0971469
+19500,394524,19500,"Decatur, IL metro area","Decatur, IL","Decatur, IL",metro,,39.8602372,-88.9615288
+19660,394528,19660,"Deltona, FL metro area","Deltona, FL","Deltona-Daytona Beach-Ormond Beach, FL",metro,,29.1789002,-81.1890231
+19740,394530,19740,"Denver, CO metro area","Denver, CO","Denver-Aurora-Centennial, CO",metro,,39.434789,-104.9010728
+19780,394531,19780,"Des Moines, IA metro area","Des Moines, IA","Des Moines-West Des Moines, IA",metro,,41.5770501,-93.7597124
+19804,394532,19804,"Detroit, MI metro area","Detroit, MI","Detroit-Dearborn-Livonia, MI",division,19820,42.2846636,-83.2619533
+20020,394537,20020,"Dothan, AL metro area","Dothan, AL","Dothan, AL",metro,,31.2455283,-85.4691904
+20100,394539,20100,"Dover, DE metro area","Dover, DE","Dover, DE",metro,,39.0970884,-75.5029819
+20220,394542,20220,"Dubuque, IA metro area","Dubuque, IA","Dubuque, IA",metro,,42.4634808,-90.8787708
+20260,394543,20260,"Duluth, MN metro area","Duluth, MN","Duluth, MN-WI",metro,,47.3297029,-92.3762703
+20500,394549,20500,"Durham, NC metro area","Durham, NC","Durham-Chapel Hill, NC",metro,,35.995536,-79.0969897
+20580,394551,20580,"Eagle Pass, TX metro area","Eagle Pass, TX","Eagle Pass, TX",metro,,28.7297873,-100.316678
+20740,394555,20740,"Eau Claire, WI metro area","Eau Claire, WI","Eau Claire, WI",metro,,44.9386719,-91.2843222
+20940,394559,20940,"El Centro, CA metro area","El Centro, CA","El Centro, CA",metro,,33.0408143,-115.3554001
+21060,394563,21060,"Elizabethtown, KY metro area","Elizabethtown, KY","Elizabethtown, KY",metro,,37.6512088,-85.8875975
+21140,394565,21140,"Elkhart, IN metro area","Elkhart, IN","Elkhart-Goshen, IN",metro,,41.6006928,-85.8639864
+21300,394568,21300,"Elmira, NY metro area","Elmira, NY","Elmira, NY",metro,,42.1486972,-76.7524712
+21340,394561,21340,"El Paso, TX metro area","El Paso, TX","El Paso, TX",metro,,31.527394,-105.5213326
+21420,394570,21420,"Enid, OK metro area","Enid, OK","Enid, OK",metro,,36.3781319,-97.7887411
+21500,394572,21500,"Erie, PA metro area","Erie, PA","Erie, PA",metro,,42.1179519,-80.0963858
+21660,394576,21660,"Eugene, OR metro area","Eugene, OR","Eugene-Springfield, OR",metro,,43.9283337,-122.8975806
+21780,394579,21780,"Evansville, IN metro area","Evansville, IN","Evansville, IN",metro,,38.0491421,-87.5845186
+21820,394580,21820,"Fairbanks, AK metro area","Fairbanks, AK","Fairbanks-College, AK",metro,,64.6704543,-146.4960611
+22020,394585,22020,"Fargo, ND metro area","Fargo, ND","Fargo, ND-MN",metro,,46.9148591,-96.9601826
+22140,394588,22140,"Farmington, NM metro area","Farmington, NM","Farmington, NM",metro,,36.5116245,-108.3245778
+22180,394589,22180,"Fayetteville, NC metro area","Fayetteville, NC","Fayetteville, NC",metro,,35.0379563,-78.9822092
+22220,394590,22220,"Fayetteville, AR metro area","Fayetteville, AR","Fayetteville-Springdale-Rogers, AR",metro,,36.1163935,-94.0795449
+22380,394595,22380,"Flagstaff, AZ metro area","Flagstaff, AZ","Flagstaff, AZ",metro,,35.8296919,-111.7737277
+22420,394596,22420,"Flint, MI metro area","Flint, MI","Flint, MI",metro,,43.0210768,-83.7063718
+22500,394597,22500,"Florence, SC metro area","Florence, SC","Florence, SC",metro,,34.1535741,-79.8061642
+22520,394598,22520,"Florence, AL metro area","Florence, AL","Florence-Muscle Shoals, AL",metro,,34.7992544,-87.7193881
+22540,394599,22540,"Fond du Lac, WI metro area","Fond du Lac, WI","Fond du Lac, WI",metro,,43.7547219,-88.493284
+22660,394602,22660,"Fort Collins, CO metro area","Fort Collins, CO","Fort Collins-Loveland, CO",metro,,40.6580933,-105.4867638
+22900,394609,22900,"Fort Smith, AR metro area","Fort Smith, AR","Fort Smith, AR-OK",metro,,35.4290883,-94.448349
+23060,394612,23060,"Fort Wayne, IN metro area","Fort Wayne, IN","Fort Wayne, IN",metro,,41.0069993,-85.2164239
+23420,394619,23420,"Fresno, CA metro area","Fresno, CA","Fresno, CA",metro,,36.8794036,-119.6684884
+23460,394620,23460,"Gadsden, AL metro area","Gadsden, AL","Gadsden, AL",metro,,34.0476407,-86.0342629
+23540,394622,23540,"Gainesville, FL metro area","Gainesville, FL","Gainesville, FL",metro,,29.4533549,-82.6662573
+23580,394623,23580,"Gainesville, GA metro area","Gainesville, GA","Gainesville, GA",metro,,34.3175689,-83.8184997
+23900,394630,23900,"Gettysburg, PA metro area","Gettysburg, PA","Gettysburg, PA",metro,,39.8694372,-77.2177502
+24020,394633,24020,"Glens Falls, NY metro area","Glens Falls, NY","Glens Falls, NY",metro,,43.4404503,-73.6367573
+24140,394635,24140,"Goldsboro, NC metro area","Goldsboro, NC","Goldsboro, NC",metro,,35.3541896,-78.0086695
+24220,394637,24220,"Grand Forks, ND metro area","Grand Forks, ND","Grand Forks, ND-MN",metro,,47.835929,-96.8426809
+24260,394638,24260,"Grand Island, NE metro area","Grand Island, NE","Grand Island, NE",metro,,41.0839258,-98.3742176
+24300,394639,24300,"Grand Junction, CO metro area","Grand Junction, CO","Grand Junction, CO",metro,,39.019524,-108.4605707
+24340,394640,24340,"Grand Rapids, MI metro area","Grand Rapids, MI","Grand Rapids-Wyoming-Kentwood, MI",metro,,42.9798406,-85.715614
+24420,394641,24420,"Grants Pass, OR metro area","Grants Pass, OR","Grants Pass, OR",metro,,42.3869829,-123.5716197
+24500,394644,24500,"Great Falls, MT metro area","Great Falls, MT","Great Falls, MT",metro,,47.3165751,-111.3502622
+24540,394645,24540,"Greeley, CO metro area","Greeley, CO","Greeley, CO",metro,,40.555961,-104.383666
+24580,394646,24580,"Green Bay, WI metro area","Green Bay, WI","Green Bay, WI",metro,,44.4740244,-87.9961303
+24660,394648,24660,"Greensboro, NC metro area","Greensboro, NC","Greensboro-High Point, NC",metro,,36.0252039,-79.7926333
+24780,394651,24780,"Greenville, NC metro area","Greenville, NC","Greenville, NC",metro,,35.5924897,-77.3727387
+24860,394653,24860,"Greenville, SC metro area","Greenville, SC","Greenville-Anderson-Greer, SC",metro,,34.6837085,-82.4134227
+25060,394658,25060,"Gulfport, MS metro area","Gulfport, MS","Gulfport-Biloxi, MS",metro,,30.4801526,-88.9992972
+25180,394660,25180,"Hagerstown, MD metro area","Hagerstown, MD","Hagerstown-Martinsburg, MD-WV",metro,,39.5544327,-77.9845935
+25220,394661,25220,"Hammond, LA metro area","Hammond, LA","Hammond, LA",metro,,30.6213483,-90.4064899
+25260,394662,25260,"Hanford, CA metro area","Hanford, CA","Hanford-Corcoran, CA",metro,,36.072478,-119.8155301
+25420,394666,25420,"Harrisburg, PA metro area","Harrisburg, PA","Harrisburg-Carlisle, PA",metro,,40.335915,-77.0504897
+25500,394668,25500,"Harrisonburg, VA metro area","Harrisonburg, VA","Harrisonburg, VA",metro,,38.5076118,-78.8853291
+25540,394669,25540,"Hartford, CT metro area","Hartford, CT","Hartford-West Hartford-East Hartford, CT",metro,,41.6880385,-72.5451122
+25620,394671,25620,"Hattiesburg, MS metro area","Hattiesburg, MS","Hattiesburg, MS",metro,,31.1884408,-89.232741
+25740,394675,25740,"Helena, MT metro area","Helena, MT","Helena, MT",metro,,46.7156708,-112.1351999
+25860,394679,25860,"Hickory, NC metro area","Hickory, NC","Hickory-Lenoir-Morganton, NC",metro,,35.8142954,-81.4565843
+25940,394681,25940,"Hilton Head Island, SC metro area","Hilton Head Island, SC","Hilton Head Island-Bluffton-Port Royal, SC",metro,,32.3867916,-80.8308775
+25980,394682,25980,"Hinesville, GA metro area","Hinesville, GA","Hinesville, GA",metro,,31.7787881,-81.5764801
+26140,394685,26140,"Homosassa Springs, FL metro area","Homosassa Springs, FL","Homosassa Springs, FL",metro,,28.8502922,-82.5955524
+26300,394689,26300,"Hot Springs, AR metro area","Hot Springs, AR","Hot Springs, AR",metro,,34.5788522,-93.1469323
+26380,394691,26380,"Houma, LA metro area","Houma, LA","Houma-Bayou Cane-Thibodaux, LA",metro,,29.3341299,-90.8436739
+26420,394692,26420,"Houston, TX metro area","Houston, TX","Houston-Pasadena-The Woodlands, TX",metro,,29.8010046,-95.34262
+26580,394697,26580,"Huntington, WV metro area","Huntington, WV","Huntington-Ashland, WV-KY-OH",metro,,38.3574874,-82.5799944
+26620,394698,26620,"Huntsville, AL metro area","Huntsville, AL","Huntsville, AL",metro,,34.7832617,-86.7348706
+26820,394703,26820,"Idaho Falls, ID metro area","Idaho Falls, ID","Idaho Falls, ID",metro,,43.6204231,-112.4209193
+26900,394705,26900,"Indianapolis, IN metro area","Indianapolis, IN","Indianapolis-Carmel-Greenwood, IN",metro,,39.7905331,-86.1242596
+26980,394707,26980,"Iowa City, IA metro area","Iowa City, IA","Iowa City, IA",metro,,41.5178058,-91.6479303
+27060,394709,27060,"Ithaca, NY metro area","Ithaca, NY","Ithaca, NY",metro,,42.4530063,-76.4734835
+27100,394710,27100,"Jackson, MI metro area","Jackson, MI","Jackson, MI",metro,,42.2484738,-84.4208679
+27140,394711,27140,"Jackson, MS metro area","Jackson, MS","Jackson, MS",metro,,32.4263105,-90.1364218
+27180,394712,27180,"Jackson, TN metro area","Jackson, TN","Jackson, TN",metro,,35.7532151,-88.8826924
+27260,394714,27260,"Jacksonville, FL metro area","Jacksonville, FL","Jacksonville, FL",metro,,30.2341838,-81.7560331
+27340,394716,27340,"Jacksonville, NC metro area","Jacksonville, NC","Jacksonville, NC",metro,,34.7631087,-77.4994691
+27500,394720,27500,"Janesville, WI metro area","Janesville, WI","Janesville-Beloit, WI",metro,,42.6698802,-89.0752844
+27620,394723,27620,"Jefferson City, MO metro area","Jefferson City, MO","Jefferson City, MO",metro,,38.6368854,-92.088876
+27740,394726,27740,"Johnson City, TN metro area","Johnson City, TN","Johnson City, TN",metro,,36.2658223,-82.3326926
+27780,394727,27780,"Johnstown, PA metro area","Johnstown, PA","Johnstown, PA",metro,,40.5102089,-78.7104876
+27860,394728,27860,"Jonesboro, AR metro area","Jonesboro, AR","Jonesboro, AR",metro,,35.6969781,-90.6501752
+27900,394729,27900,"Joplin, MO metro area","Joplin, MO","Joplin, MO-KS",metro,,37.0921351,-94.5006513
+27980,394731,27980,"Kahului, HI metro area","Kahului, HI","Kahului-Wailuku, HI",metro,,20.8559308,-156.6015502
+28020,394732,28020,"Kalamazoo, MI metro area","Kalamazoo, MI","Kalamazoo-Portage, MI",metro,,42.2462657,-85.5328544
+28100,394734,28100,"Kankakee, IL metro area","Kankakee, IL","Kankakee, IL",metro,,41.1395105,-87.8611165
+28140,394735,28140,"Kansas City, MO metro area","Kansas City, MO","Kansas City, MO-KS",metro,,38.9318567,-94.4438406
+28420,394741,28420,"Kennewick, WA metro area","Kennewick, WA","Kennewick-Richland, WA",metro,,46.3641545,-119.2549271
+28660,394746,28660,"Killeen, TX metro area","Killeen, TX","Killeen-Temple, TX",metro,,31.2027301,-97.7896384
+28700,394747,28700,"Kingsport, TN metro area","Kingsport, TN","Kingsport-Bristol, TN-VA",metro,,36.6041611,-82.4401446
+28740,394748,28740,"Kingston, NY metro area","Kingston, NY","Kingston, NY",metro,,41.9472124,-74.2654582
+28940,394753,28940,"Knoxville, TN metro area","Knoxville, TN","Knoxville, TN",metro,,36.0444622,-84.1361137
+29020,394755,29020,"Kokomo, IN metro area","Kokomo, IN","Kokomo, IN",metro,,40.4835368,-86.1141178
+29100,394756,29100,"La Crosse, WI metro area","La Crosse, WI","La Crosse-Onalaska, WI-MN",metro,,43.6982642,-91.1101402
+29180,394761,29180,"Lafayette, LA metro area","Lafayette, LA","Lafayette, LA",metro,,30.0129611,-92.1365518
+29200,753895,29200,"Lafayette, IN metro area","Lafayette, IN","Lafayette-West Lafayette, IN",metro,,40.4821533,-87.0171117
+29340,394763,29340,"Lake Charles, LA metro area","Lake Charles, LA","Lake Charles, LA",metro,,30.0384514,-93.1900931
+29420,394765,29420,"Lake Havasu City, AZ metro area","Lake Havasu City, AZ","Lake Havasu City-Kingman, AZ",metro,,35.717705,-113.7496891
+29460,394766,29460,"Lakeland, FL metro area","Lakeland, FL","Lakeland-Winter Haven, FL",metro,,27.9536855,-81.6934929
+29540,394768,29540,"Lancaster, PA metro area","Lancaster, PA","Lancaster, PA",metro,,40.0419921,-76.250198
+29620,394770,29620,"Lansing, MI metro area","Lansing, MI","Lansing-East Lansing, MI",metro,,42.7136586,-84.6053717
+29700,394772,29700,"Laredo, TX metro area","Laredo, TX","Laredo, TX",metro,,27.7607987,-99.3407518
+29740,394773,29740,"Las Cruces, NM metro area","Las Cruces, NM","Las Cruces, NM",metro,,32.349919,-106.8349684
+29820,394775,29820,"Las Vegas, NV metro area","Las Vegas, NV","Las Vegas-Henderson-North Las Vegas, NV",metro,,36.2141295,-115.0143977
+29940,394778,29940,"Lawrence, KS metro area","Lawrence, KS","Lawrence, KS",metro,,38.8964168,-95.2909475
+30020,394780,30020,"Lawton, OK metro area","Lawton, OK","Lawton, OK",metro,,34.529113,-98.4309024
+30140,394783,30140,"Lebanon, PA metro area","Lebanon, PA","Lebanon, PA",metro,,40.3714482,-76.4648185
+30300,394787,30300,"Lewiston, ID metro area","Lewiston, ID","Lewiston, ID-WA",metro,,46.2516957,-116.9250166
+30340,394788,30340,"Lewiston, ME metro area","Lewiston, ME","Lewiston-Auburn, ME",metro,,44.1676811,-70.2074347
+30460,394792,30460,"Lexington, KY metro area","Lexington, KY","Lexington-Fayette, KY",metro,,38.1028763,-84.4385451
+30620,394794,30620,"Lima, OH metro area","Lima, OH","Lima, OH",metro,,40.7716274,-84.1061032
+30700,394796,30700,"Lincoln, NE metro area","Lincoln, NE","Lincoln, NE",metro,,40.8174287,-96.8688013
+30780,394798,30780,"Little Rock, AR metro area","Little Rock, AR","Little Rock-North Little Rock-Conway, AR",metro,,34.7557726,-92.4005889
+30860,394800,30860,"Logan, UT metro area","Logan, UT","Logan, UT-ID",metro,,41.8890205,-111.7874375
+30980,394803,30980,"Longview, TX metro area","Longview, TX","Longview, TX",metro,,32.4316457,-94.6848326
+31020,394804,31020,"Longview, WA metro area","Longview, WA","Longview-Kelso, WA",metro,,46.1967854,-122.6784596
+31084,753899,31084,"Los Angeles, CA metro area","Los Angeles, CA","Los Angeles-Long Beach-Glendale, CA",division,31080,34.1963983,-118.2618616
+31140,394807,31140,"Louisville, KY metro area","Louisville, KY","Louisville/Jefferson County, KY-IN",metro,,38.2243628,-85.7019893
+31180,394808,31180,"Lubbock, TX metro area","Lubbock, TX","Lubbock, TX",metro,,33.4697939,-101.8804118
+31340,394811,31340,"Lynchburg, VA metro area","Lynchburg, VA","Lynchburg, VA",metro,,37.3649258,-79.2166894
+31420,394813,31420,"Macon, GA metro area","Macon, GA","Macon-Bibb County, GA",metro,,32.8562163,-83.714305
+31540,394816,31540,"Madison, WI metro area","Madison, WI","Madison, WI",metro,,43.0838459,-89.5977453
+31700,394820,31700,"Manchester, NH metro area","Manchester, NH","Manchester-Nashua, NH",metro,,42.9115317,-71.7230554
+31740,394821,31740,"Manhattan, KS metro area","Manhattan, KS","Manhattan, KS",metro,,39.2684241,-96.5622422
+31860,394823,31860,"Mankato, MN metro area","Mankato, MN","Mankato, MN",metro,,44.15479,-94.1477975
+31900,394824,31900,"Mansfield, OH metro area","Mansfield, OH","Mansfield, OH",metro,,40.774159,-82.5427812
+32580,394843,32580,"McAllen, TX metro area","McAllen, TX","McAllen-Edinburg-Mission, TX",metro,,26.3963839,-98.18099
+32780,394848,32780,"Medford, OR metro area","Medford, OR","Medford, OR",metro,,42.4116214,-122.6756106
+32820,394849,32820,"Memphis, TN metro area","Memphis, TN","Memphis, TN-MS-AR",metro,,35.010307,-89.8205035
+32900,394851,32900,"Merced, CA metro area","Merced, CA","Merced, CA",metro,,37.1948063,-120.7228019
+33124,394856,33124,"Miami, FL metro area","Miami, FL","Miami-Miami Beach-Kendall, FL",division,33100,25.6160085,-80.5037495
+33140,394857,33140,"Michigan City, IN metro area","Michigan City, IN","Michigan City-La Porte, IN",metro,,41.5490129,-86.7447386
+33220,394859,33220,"Midland, MI metro area","Midland, MI","Midland, MI",metro,,43.6482031,-84.3794144
+33260,394860,33260,"Midland, TX metro area","Midland, TX","Midland, TX",metro,,32.0923594,-101.9945395
+33340,394862,33340,"Milwaukee, WI metro area","Milwaukee, WI","Milwaukee-Waukesha, WI",metro,,42.9126431,-87.8623115
+33460,394865,33460,"Minneapolis, MN metro area","Minneapolis, MN","Minneapolis-St. Paul-Bloomington, MN-WI",metro,,45.096664,-93.275361
+33500,394866,33500,"Minot, ND metro area","Minot, ND","Minot, ND",metro,,48.3202424,-101.1980099
+33540,394867,33540,"Missoula, MT metro area","Missoula, MT","Missoula, MT",metro,,47.0695448,-114.2626684
+33660,394870,33660,"Mobile, AL metro area","Mobile, AL","Mobile, AL",metro,,30.6845725,-88.1965682
+33700,394871,33700,"Modesto, CA metro area","Modesto, CA","Modesto, CA",metro,,37.5623162,-121.0028311
+33740,394872,33740,"Monroe, LA metro area","Monroe, LA","Monroe, LA",metro,,32.67396,-92.0583184
+33780,394873,33780,"Monroe, MI metro area","Monroe, MI","Monroe, MI",metro,,41.916097,-83.4871059
+33860,394875,33860,"Montgomery, AL metro area","Montgomery, AL","Montgomery, AL",metro,,32.3656313,-86.4045848
+34060,394879,34060,"Morgantown, WV metro area","Morgantown, WV","Morgantown, WV",metro,,39.5251551,-79.8019121
+34100,394880,34100,"Morristown, TN metro area","Morristown, TN","Morristown, TN",metro,,36.1154845,-83.376546
+34580,394890,34580,"Mount Vernon, WA metro area","Mount Vernon, WA","Mount Vernon-Anacortes, WA",metro,,48.4932917,-121.8157703
+34620,394893,34620,"Muncie, IN metro area","Muncie, IN","Muncie, IN",metro,,40.2275433,-85.3992617
+34740,394896,34740,"Muskegon, MI metro area","Muskegon, MI","Muskegon-Norton Shores, MI",metro,,43.4287388,-86.4209083
+34820,394898,34820,"Myrtle Beach, SC metro area","Myrtle Beach, SC","Myrtle Beach-Conway-North Myrtle Beach, SC",metro,,33.9092694,-78.9766749
+34900,394900,34900,"Napa, CA metro area","Napa, CA","Napa, CA",metro,,38.5070999,-122.3259045
+34940,394901,34940,"Naples, FL metro area","Naples, FL","Naples-Marco Island, FL",metro,,26.118786,-81.4009553
+34980,394902,34980,"Nashville, TN metro area","Nashville, TN","Nashville-Davidson--Murfreesboro--Franklin, TN",metro,,36.0915767,-86.7229798
+35300,394908,35300,"New Haven, CT metro area","New Haven, CT","New Haven, CT",metro,,41.2901671,-72.8370243
+35380,394910,35380,"New Orleans, LA metro area","New Orleans, LA","New Orleans-Metairie, LA",metro,,29.282447,-89.5760676
+35614,394913,35614,"New York, NY metro area","New York, NY","New York-Jersey City-White Plains, NY-NJ",division,35620,41.0165111,-73.9328721
+35660,394917,35660,"Niles, MI metro area","Niles, MI","Niles, MI",metro,,41.7913818,-86.7425435
+35840,753906,35840,"North Port, FL metro area","North Port, FL","North Port-Bradenton-Sarasota, FL",metro,,27.3290555,-82.4145331
+35980,394924,35980,"Norwich, CT metro area","Norwich, CT","Norwich-New London-Willimantic, CT",metro,,41.4847688,-72.1016655
+36100,394927,36100,"Ocala, FL metro area","Ocala, FL","Ocala, FL",metro,,29.2028047,-82.0431004
+36220,394930,36220,"Odessa, TX metro area","Odessa, TX","Odessa, TX",metro,,31.8653008,-102.5425068
+36260,394931,36260,"Ogden, UT metro area","Ogden, UT","Ogden, UT",metro,,41.1243423,-111.8669334
+36420,394935,36420,"Oklahoma City, OK metro area","Oklahoma City, OK","Oklahoma City, OK",metro,,35.4309676,-97.5069659
+36500,394937,36500,"Olympia, WA metro area","Olympia, WA","Olympia-Lacey-Tumwater, WA",metro,,46.9358216,-122.8301524
+36540,394938,36540,"Omaha, NE metro area","Omaha, NE","Omaha, NE-IA",metro,,41.2904587,-95.9999701
+36740,394943,36740,"Orlando, FL metro area","Orlando, FL","Orlando-Kissimmee-Sanford, FL",metro,,28.4343977,-81.3560597
+36780,394944,36780,"Oshkosh, WI metro area","Oshkosh, WI","Oshkosh-Neenah, WI",metro,,44.0857068,-88.6681488
+36980,394949,36980,"Owensboro, KY metro area","Owensboro, KY","Owensboro, KY",metro,,37.6643749,-87.1473864
+37100,394952,37100,"Oxnard, CA metro area","Oxnard, CA","Oxnard-Thousand Oaks-Ventura, CA",metro,,34.3587477,-119.1331453
+37140,394953,37140,"Paducah, KY metro area","Paducah, KY","Paducah, KY-IL",metro,,37.0942343,-88.7170503
+37340,394957,37340,"Palm Bay, FL metro area","Palm Bay, FL","Palm Bay-Melbourne-Titusville, FL",metro,,28.2983112,-80.7003334
+37460,394960,37460,"Panama City, FL metro area","Panama City, FL","Panama City-Panama City Beach, FL",metro,,30.2732406,-85.6420894
+37620,394964,37620,"Parkersburg, WV metro area","Parkersburg, WV","Parkersburg-Vienna, WV",metro,,39.1415311,-81.4604019
+37860,394971,37860,"Pensacola, FL metro area","Pensacola, FL","Pensacola-Ferry Pass-Brent, FL",metro,,30.6085566,-87.1585466
+37900,394972,37900,"Peoria, IL metro area","Peoria, IL","Peoria, IL",metro,,40.7880685,-89.5146389
+37964,394974,37964,"Philadelphia, PA metro area","Philadelphia, PA","Philadelphia, PA",division,37980,39.9563653,-75.2863545
+38060,394976,38060,"Phoenix, AZ metro area","Phoenix, AZ","Phoenix-Mesa-Chandler, AZ",metro,,33.1857653,-112.0678624
+38240,753912,38240,"Pinehurst, NC metro area","Pinehurst, NC","Pinehurst-Southern Pines, NC",metro,,35.3082734,-79.4927233
+38300,394982,38300,"Pittsburgh, PA metro area","Pittsburgh, PA","Pittsburgh, PA",metro,,40.4713315,-79.8639858
+38340,394983,38340,"Pittsfield, MA metro area","Pittsfield, MA","Pittsfield, MA",metro,,42.371493,-73.2179276
+38540,394988,38540,"Pocatello, ID metro area","Pocatello, ID","Pocatello, ID",metro,,42.6929211,-112.2289819
+38860,394997,38860,"Portland, ME metro area","Portland, ME","Portland-South Portland, ME",metro,,43.6514172,-70.4183755
+38900,394998,38900,"Portland, OR metro area","Portland, OR","Portland-Vancouver-Hillsboro, OR-WA",metro,,45.6006221,-122.484378
+38940,394995,38940,"Port St. Lucie, FL metro area","Port St. Lucie, FL","Port St. Lucie, FL",metro,,27.2280459,-80.4253884
+39150,845160,39150,"Prescott Valley, AZ metro area","Prescott Valley, AZ","Prescott Valley-Prescott, AZ",metro,,34.631071,-112.5772247
+39300,395005,39300,"Providence, RI metro area","Providence, RI","Providence-Warwick, RI-MA",metro,,41.7068397,-71.2866874
+39340,395006,39340,"Provo, UT metro area","Provo, UT","Provo-Orem-Lehi, UT",metro,,39.872067,-112.3590592
+39380,395007,39380,"Pueblo, CO metro area","Pueblo, CO","Pueblo, CO",metro,,38.1627652,-104.4846683
+39460,395009,39460,"Punta Gorda, FL metro area","Punta Gorda, FL","Punta Gorda, FL",metro,,26.9063964,-82.0036572
+39540,395011,39540,"Racine, WI metro area","Racine, WI","Racine-Mount Pleasant, WI",metro,,42.7803923,-87.7715988
+39580,395012,39580,"Raleigh, NC metro area","Raleigh, NC","Raleigh-Cary, NC",metro,,35.7567464,-78.4604412
+39660,395013,39660,"Rapid City, SD metro area","Rapid City, SD","Rapid City, SD",metro,,44.1951082,-102.916612
+39740,395015,39740,"Reading, PA metro area","Reading, PA","Reading, PA",metro,,40.4139565,-75.9268598
+39820,395018,39820,"Redding, CA metro area","Redding, CA","Redding, CA",metro,,40.7605142,-122.0435558
+39900,395019,39900,"Reno, NV metro area","Reno, NV","Reno, NV",metro,,40.2510571,-119.5555069
+40060,395022,40060,"Richmond, VA metro area","Richmond, VA","Richmond, VA",metro,,37.4122374,-77.4437202
+40140,395025,40140,"Riverside, CA metro area","Riverside, CA","Riverside-San Bernardino-Ontario, CA",metro,,34.5384763,-116.1345414
+40220,395028,40220,"Roanoke, VA metro area","Roanoke, VA","Roanoke, VA",metro,,37.2862262,-79.9469346
+40340,395030,40340,"Rochester, MN metro area","Rochester, MN","Rochester, MN",metro,,43.9498104,-92.3306605
+40380,395031,40380,"Rochester, NY metro area","Rochester, NY","Rochester, NY",metro,,43.184718,-77.5565575
+40420,395033,40420,"Rockford, IL metro area","Rockford, IL","Rockford, IL",metro,,42.331183,-89.0429139
+40580,395036,40580,"Rocky Mount, NC metro area","Rocky Mount, NC","Rocky Mount, NC",metro,,35.9410455,-77.7985494
+40660,395038,40660,"Rome, GA metro area","Rome, GA","Rome, GA",metro,,34.2636901,-85.2136849
+40900,395045,40900,"Sacramento, CA metro area","Sacramento, CA","Sacramento-Roseville-Folsom, CA",metro,,38.7902715,-121.0056427
+40980,395047,40980,"Saginaw, MI metro area","Saginaw, MI","Saginaw, MI",metro,,43.3282667,-84.05541
+41060,395118,41060,"St. Cloud, MN metro area","St. Cloud, MN","St. Cloud, MN",metro,,45.5930312,-94.4883635
+41100,395119,41100,"St. George, UT metro area","St. George, UT","St. George, UT",metro,,37.2625308,-113.4878003
+41140,395120,41140,"St. Joseph, MO metro area","St. Joseph, MO","St. Joseph, MO-KS",metro,,39.834843,-94.7837537
+41180,395121,41180,"St. Louis, MO metro area","St. Louis, MO","St. Louis, MO-IL",metro,,38.7402108,-90.3458253
+41420,395048,41420,"Salem, OR metro area","Salem, OR","Salem, OR",metro,,44.9033845,-122.9017571
+41500,395050,41500,"Salinas, CA metro area","Salinas, CA","Salinas, CA",metro,,36.2401044,-121.3155781
+41540,395051,41540,"Salisbury, MD metro area","Salisbury, MD","Salisbury, MD",metro,,38.1972788,-75.7692524
+41620,395053,41620,"Salt Lake City, UT metro area","Salt Lake City, UT","Salt Lake City-Murray, UT",metro,,40.5728869,-112.9532527
+41660,395054,41660,"San Angelo, TX metro area","San Angelo, TX","San Angelo, TX",metro,,31.3653095,-100.6594181
+41700,395055,41700,"San Antonio, TX metro area","San Antonio, TX","San Antonio-New Braunfels, TX",metro,,29.4330599,-98.6069734
+41740,395056,41740,"San Diego, CA metro area","San Diego, CA","San Diego-Chula Vista-Carlsbad, CA",metro,,33.0236041,-116.7761174
+41780,395062,41780,"Sandusky, OH metro area","Sandusky, OH","Sandusky, OH",metro,,41.5196059,-82.7945682
+41884,395057,41884,"San Francisco, CA metro area","San Francisco, CA","San Francisco-San Mateo-Redwood City, CA",division,41860,37.5126658,-122.4361768
+41940,395059,41940,"San Jose, CA metro area","San Jose, CA","San Jose-Sunnyvale-Santa Clara, CA",metro,,36.9084718,-121.3713721
+42020,395061,42020,"San Luis Obispo, CA metro area","San Luis Obispo, CA","San Luis Obispo-Paso Robles, CA",metro,,35.3881891,-120.4488974
+42100,395065,42100,"Santa Cruz, CA metro area","Santa Cruz, CA","Santa Cruz-Watsonville, CA",metro,,37.0123466,-122.0077889
+42140,395066,42140,"Santa Fe, NM metro area","Santa Fe, NM","Santa Fe, NM",metro,,35.5145309,-105.9639718
+42200,753917,42200,"Santa Maria, CA metro area","Santa Maria, CA","Santa Maria-Santa Barbara, CA",metro,,34.5366774,-120.0383645
+42220,395068,42220,"Santa Rosa, CA metro area","Santa Rosa, CA","Santa Rosa-Petaluma, CA",metro,,38.5251824,-122.9261095
+42340,395070,42340,"Savannah, GA metro area","Savannah, GA","Savannah, GA",metro,,32.1092557,-81.2732867
+42540,395075,42540,"Scranton, PA metro area","Scranton, PA","Scranton--Wilkes-Barre, PA",metro,,41.3228806,-75.8981877
+42644,395078,42644,"Seattle, WA metro area","Seattle, WA","Seattle-Bellevue-Kent, WA",division,42660,47.4905518,-121.8339765
+42680,395079,42680,"Sebastian, FL metro area","Sebastian, FL","Sebastian-Vero Beach-West Vero Corridor, FL",metro,,27.7005283,-80.5747894
+42700,395080,42700,"Sebring, FL metro area","Sebring, FL","Sebring, FL",metro,,27.3410799,-81.3423534
+43100,395089,43100,"Sheboygan, WI metro area","Sheboygan, WI","Sheboygan, WI",metro,,43.7387131,-87.731531
+43300,395094,43300,"Sherman, TX metro area","Sherman, TX","Sherman-Denison, TX",metro,,33.6245482,-96.6757774
+43340,395096,43340,"Shreveport, LA metro area","Shreveport, LA","Shreveport-Bossier City, LA",metro,,32.4376822,-93.7448836
+43420,395098,43420,"Sierra Vista, AZ metro area","Sierra Vista, AZ","Sierra Vista-Douglas, AZ",metro,,31.8401287,-109.7751627
+43580,395102,43580,"Sioux City, IA metro area","Sioux City, IA","Sioux City, IA-NE-SD",metro,,42.5080368,-96.3113136
+43620,395103,43620,"Sioux Falls, SD metro area","Sioux Falls, SD","Sioux Falls, SD-MN",metro,,43.5256577,-96.8754156
+43780,395107,43780,"South Bend, IN metro area","South Bend, IN","South Bend-Mishawaka, IN-MI",metro,,41.7749808,-86.1230143
+43900,395109,43900,"Spartanburg, SC metro area","Spartanburg, SC","Spartanburg, SC",metro,,34.8346199,-81.8424008
+44060,395113,44060,"Spokane, WA metro area","Spokane, WA","Spokane-Spokane Valley, WA",metro,,48.091618,-117.663472
+44100,395114,44100,"Springfield, IL metro area","Springfield, IL","Springfield, IL",metro,,39.8286215,-89.6960672
+44140,395115,44140,"Springfield, MA metro area","Springfield, MA","Springfield, MA",metro,,42.1361975,-72.6356476
+44180,395116,44180,"Springfield, MO metro area","Springfield, MO","Springfield, MO",metro,,37.3608699,-93.1802617
+44220,395117,44220,"Springfield, OH metro area","Springfield, OH","Springfield, OH",metro,,39.9170315,-83.783676
+44300,395125,44300,"State College, PA metro area","State College, PA","State College, PA",metro,,40.9093218,-77.847667
+44420,395128,44420,"Staunton, VA metro area","Staunton, VA","Staunton-Stuarts Draft, VA",metro,,38.1609584,-79.1276321
+44700,395134,44700,"Stockton, CA metro area","Stockton, CA","Stockton-Lodi, CA",metro,,37.9349815,-121.272244
+44940,395139,44940,"Sumter, SC metro area","Sumter, SC","Sumter, SC",metro,,33.9161395,-80.3823757
+45060,395143,45060,"Syracuse, NY metro area","Syracuse, NY","Syracuse, NY",metro,,43.0065163,-76.1961336
+45220,395146,45220,"Tallahassee, FL metro area","Tallahassee, FL","Tallahassee, FL",metro,,30.3463661,-84.2670012
+45300,395148,45300,"Tampa, FL metro area","Tampa, FL","Tampa-St. Petersburg-Clearwater, FL",metro,,28.1205405,-82.525188
+45460,395151,45460,"Terre Haute, IN metro area","Terre Haute, IN","Terre Haute, IN",metro,,39.392389,-87.3470958
+45500,395152,45500,"Texarkana, TX metro area","Texarkana, TX","Texarkana, TX-AR",metro,,33.4783728,-94.2071619
+45780,395160,45780,"Toledo, OH metro area","Toledo, OH","Toledo, OH",metro,,41.5443571,-83.6907772
+45820,395161,45820,"Topeka, KS metro area","Topeka, KS","Topeka, KS",metro,,39.0413888,-95.8026393
+45900,395163,45900,"Traverse City, MI metro area","Traverse City, MI","Traverse City, MI",metro,,44.9523239,-85.90832
+45940,395164,45940,"Trenton, NJ metro area","Trenton, NJ","Trenton-Princeton, NJ",metro,,40.2825026,-74.703724
+46060,395167,46060,"Tucson, AZ metro area","Tucson, AZ","Tucson, AZ",metro,,32.128038,-111.7836574
+46140,395169,46140,"Tulsa, OK metro area","Tulsa, OK","Tulsa, OK",metro,,36.2544416,-96.1772979
+46220,395171,46220,"Tuscaloosa, AL metro area","Tuscaloosa, AL","Tuscaloosa, AL",metro,,33.0978769,-87.7991473
+46300,395173,46300,"Twin Falls, ID metro area","Twin Falls, ID","Twin Falls, ID",metro,,42.4403972,-114.5687294
+46340,395174,46340,"Tyler, TX metro area","Tyler, TX","Tyler, TX",metro,,32.3751053,-95.2689389
+46520,753924,46520,"Honolulu, HI metro area","Urban Honolulu, HI","Urban Honolulu, HI",metro,,21.4613654,-158.201974
+46540,395179,46540,"Utica, NY metro area","Utica, NY","Utica-Rome, NY",metro,,43.3322796,-75.1731893
+46660,395182,46660,"Valdosta, GA metro area","Valdosta, GA","Valdosta, GA",metro,,30.8271579,-83.2435548
+46700,395183,46700,"Vallejo, CA metro area","Vallejo, CA","Vallejo, CA",metro,,38.2672255,-121.939594
+47020,395190,47020,"Victoria, TX metro area","Victoria, TX","Victoria, TX",metro,,28.7314546,-97.1969934
+47220,395193,47220,"Vineland, NJ metro area","Vineland, NJ","Vineland, NJ",metro,,39.3284336,-75.1216277
+47260,395194,47260,"Virginia Beach, VA metro area","Virginia Beach, VA","Virginia Beach-Chesapeake-Norfolk, VA-NC",metro,,36.8372891,-76.3918494
+47300,395195,47300,"Visalia, CA metro area","Visalia, CA","Visalia, CA",metro,,36.2288339,-118.7810551
+47380,395197,47380,"Waco, TX metro area","Waco, TX","Waco, TX",metro,,31.5921004,-97.2860178
+47460,395199,47460,"Walla Walla, WA metro area","Walla Walla, WA","Walla Walla, WA",metro,,46.2546057,-118.4803697
+47580,395202,47580,"Warner Robins, GA metro area","Warner Robins, GA","Warner Robins, GA",metro,,32.4928056,-83.7110844
+47940,395210,47940,"Waterloo, IA metro area","Waterloo, IA","Waterloo-Cedar Falls, IA",metro,,42.5367962,-92.471608
+48060,395213,48060,"Watertown, NY metro area","Watertown, NY","Watertown-Fort Drum, NY",metro,,43.996389,-76.0529678
+48140,395215,48140,"Wausau, WI metro area","Wausau, WI","Wausau, WI",metro,,44.8980363,-89.757823
+48260,395217,48260,"Weirton, WV metro area","Weirton, WV","Weirton-Steubenville, WV-OH",metro,,40.3889142,-80.7019657
+48300,395218,48300,"Wenatchee, WA metro area","Wenatchee, WA","Wenatchee-East Wenatchee, WA",metro,,47.7661102,-120.2701973
+48540,395221,48540,"Wheeling, WV metro area","Wheeling, WV","Wheeling, WV-OH",metro,,39.9776866,-80.8548262
+48620,395224,48620,"Wichita, KS metro area","Wichita, KS","Wichita, KS",metro,,37.637896,-97.2462875
+48660,395223,48660,"Wichita Falls, TX metro area","Wichita Falls, TX","Wichita Falls, TX",metro,,33.7761441,-98.5019073
+48700,395225,48700,"Williamsport, PA metro area","Williamsport, PA","Williamsport, PA",metro,,41.3438824,-77.0552624
+48900,395229,48900,"Wilmington, NC metro area","Wilmington, NC","Wilmington, NC",metro,,34.2536905,-78.0416743
+49020,395232,49020,"Winchester, VA metro area","Winchester, VA","Winchester, VA-WV",metro,,39.2729744,-78.4718276
+49180,395235,49180,"Winston-Salem, NC metro area","Winston, NC","Winston-Salem, NC",metro,,36.0788515,-80.3450642
+49340,395238,49340,"Worcester, MA metro area","Worcester, MA","Worcester, MA",metro,,42.3116934,-71.940282
+49420,395240,49420,"Yakima, WA metro area","Yakima, WA","Yakima, WA",metro,,46.4565581,-120.7401446
+49620,395244,49620,"York, PA metro area","York, PA","York-Hanover, PA",metro,,39.9217514,-76.7288887
+49660,395245,49660,"Youngstown, OH metro area","Youngstown, OH","Youngstown-Warren, OH",metro,,41.1950924,-80.7650804
+49700,395246,49700,"Yuba City, CA metro area","Yuba City, CA","Yuba City, CA",metro,,39.1609692,-121.5118327
+49740,395247,49740,"Yuma, AZ metro area","Yuma, AZ","Yuma, AZ",metro,,32.7739424,-113.910905

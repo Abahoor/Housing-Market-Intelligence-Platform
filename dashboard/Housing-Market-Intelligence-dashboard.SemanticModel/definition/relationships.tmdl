@@ -1,0 +1,97 @@
+relationship AutoDetected_327f9aa3-6ae0-485b-9719-cb0c34b10ddf
+	fromColumn: 'housing_market_intelligence_platform vw_2024_market_correlations'.markets_included
+	toColumn: 'housing_market_intelligence_platform vw_2024_average_market_profile'.markets_included
+
+relationship AutoDetected_45a2441b-8bcd-460d-b33d-745ff1983c5e
+	fromColumn: 'housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage'.avg_sale_price
+	toColumn: 'housing_market_intelligence_platform vw_2024_mortgage_income_burden_extremes'.avg_sale_price
+
+relationship AutoDetected_97656c0c-3bfb-4e01-848a-e420dc4acadb
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'housing_market_intelligence_platform vw_2024_sale_price_extremes'.avg_sale_price
+	toColumn: 'housing_market_intelligence_platform vw_2024_mortgage_income_burden_extremes'.avg_sale_price
+
+relationship AutoDetected_64b29d7c-0f18-417e-844a-92cba7df9c92
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'housing_market_intelligence_platform vw_2024_price_income_ratio_extremes'.geo_id
+	toColumn: 'housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage'.geo_id
+
+relationship AutoDetected_e2e30ba8-39ed-4bf1-91c9-5ef152e09ddc
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'housing_market_intelligence_platform vw_2024_rent_extremes'.geo_id
+	toColumn: 'housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage'.geo_id
+
+relationship AutoDetected_e7ee3eb4-b949-4d4b-baee-4878499d6c49
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'housing_market_intelligence_platform vw_2024_rent_income_ratio_extremes'.geo_id
+	toColumn: 'housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage'.geo_id
+
+relationship AutoDetected_e4f0d379-835d-42b0-a221-9d22d028b5f5
+	isActive: false
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'housing_market_intelligence_platform vw_2024_sale_price_extremes'.geo_id
+	toColumn: 'housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage'.geo_id
+
+relationship AutoDetected_16b0c2bd-e6ab-45da-9ae0-9f023b561a5e
+	isActive: false
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'housing_market_intelligence_platform vw_2024_price_income_ratio_extremes'.geo_name
+	toColumn: 'housing_market_intelligence_platform vw_2024_mortgage_income_burden_extremes'.geo_name
+
+relationship AutoDetected_8596db13-c318-4146-92a4-171b6a37b2f4
+	isActive: false
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'housing_market_intelligence_platform vw_2024_price_income_ratio_extremes'.geo_name
+	toColumn: 'housing_market_intelligence_platform vw_2024_sale_price_extremes'.geo_name
+
+relationship AutoDetected_def9f5e7-b0b3-45a8-b598-b278e83909ff
+	fromColumn: 'housing_market_intelligence_platform market_map_2024'.avg_sale_price
+	toColumn: 'housing_market_intelligence_platform vw_2024_mortgage_income_burden_extremes'.avg_sale_price
+
+relationship AutoDetected_e3919e3e-7eb8-4d20-a360-aa7d73315a87
+	isActive: false
+	fromColumn: 'housing_market_intelligence_platform market_map_2024'.avg_rent
+	toColumn: 'housing_market_intelligence_platform vw_2024_rent_extremes'.avg_rent
+
+relationship AutoDetected_00420325-1b0d-43f6-b900-1340fe5effc4
+	isActive: false
+	fromColumn: 'housing_market_intelligence_platform market_map_2024'.avg_rent
+	toColumn: 'housing_market_intelligence_platform vw_2024_rent_income_ratio_extremes'.avg_rent
+
+relationship AutoDetected_f17373ac-7880-4d0f-9c00-3bf795da8851
+	isActive: false
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'housing_market_intelligence_platform market_map_2024'.geo_id
+	toColumn: 'housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage'.geo_id
+
+relationship AutoDetected_861f879f-5949-4ef3-90f8-0bb87650d5d6
+	isActive: false
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'housing_market_intelligence_platform vw_2024_price_income_ratio_extremes'.geo_name
+	toColumn: 'housing_market_intelligence_platform market_map_2024'.geo_name
+
+relationship AutoDetected_9158ee45-fde0-4644-8a81-5408164244dd
+	isActive: false
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'housing_market_intelligence_platform vw_2024_sale_price_extremes'.geo_name
+	toColumn: 'housing_market_intelligence_platform market_map_2024'.geo_name
+
+relationship AutoDetected_ebfae9c5-159f-417d-88e3-f300e4a52895
+	fromColumn: 'housing_market_intelligence_platform market_map_2024'.avg_monthly_homes_sold
+	toColumn: 'housing_market_intelligence_platform vw_2024_supply_heat_candidates'.avg_monthly_homes_sold
+
+relationship AutoDetected_ff15420b-4a01-41cf-919c-4a610e2e2c27
+	crossFilteringBehavior: bothDirections
+	fromColumn: 'housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage'.geo_id
+	toColumn: 'housing_market_intelligence_platform vw_2024_supply_heat_candidates'.geo_id
+

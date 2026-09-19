@@ -1,0 +1,50 @@
+table 'housing_market_intelligence_platform vw_2024_rent_extremes'
+	lineageTag: 6dd01a4e-04cc-493d-911f-55330f23b577
+
+	column rent_group
+		dataType: string
+		lineageTag: b35207d0-649f-4a78-9f2f-e1e185722017
+		summarizeBy: none
+		sourceColumn: rent_group
+
+		annotation SummarizationSetBy = Automatic
+
+	column geo_id
+		dataType: string
+		lineageTag: 968e0565-49f3-43ff-a44b-81f4aaa5f19f
+		summarizeBy: none
+		sourceColumn: geo_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column geo_name
+		dataType: string
+		lineageTag: 612a7455-886e-4156-842a-3182ff3a0a5f
+		summarizeBy: none
+		sourceColumn: geo_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column avg_rent
+		dataType: double
+		lineageTag: ac959eb3-b229-475c-8a22-f5dcd1fc2999
+		summarizeBy: sum
+		sourceColumn: avg_rent
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'housing_market_intelligence_platform vw_2024_rent_extremes' = m
+		mode: import
+		source =
+				let
+				    Source = MySQL.Database("localhost", "housing_market_intelligence_platform", [ReturnSingleDatabase=true]),
+				    housing_market_intelligence_platform_vw_2024_rent_extremes = Source{[Schema="housing_market_intelligence_platform",Item="vw_2024_rent_extremes"]}[Data]
+				in
+				    housing_market_intelligence_platform_vw_2024_rent_extremes
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

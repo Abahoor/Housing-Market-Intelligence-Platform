@@ -1,0 +1,50 @@
+table 'housing_market_intelligence_platform vw_2024_sale_price_extremes'
+	lineageTag: 9e272ad3-e512-45e8-9b19-99564a643469
+
+	column price_group
+		dataType: string
+		lineageTag: adda5f7a-7171-47cb-ade0-da810a29b2aa
+		summarizeBy: none
+		sourceColumn: price_group
+
+		annotation SummarizationSetBy = Automatic
+
+	column geo_id
+		dataType: string
+		lineageTag: fb3aff9a-d19f-4d2a-bd3d-a65b44d9f33c
+		summarizeBy: none
+		sourceColumn: geo_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column geo_name
+		dataType: string
+		lineageTag: bf422cb1-ce38-4e5e-9f59-f11fde0b4d7b
+		summarizeBy: none
+		sourceColumn: geo_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column avg_sale_price
+		dataType: double
+		lineageTag: cff7e193-90af-4369-bd48-6a9c62a2393b
+		summarizeBy: none
+		sourceColumn: avg_sale_price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'housing_market_intelligence_platform vw_2024_sale_price_extremes' = m
+		mode: import
+		source =
+				let
+				    Source = MySQL.Database("localhost", "housing_market_intelligence_platform", [ReturnSingleDatabase=true]),
+				    housing_market_intelligence_platform_vw_2024_sale_price_extremes = Source{[Schema="housing_market_intelligence_platform",Item="vw_2024_sale_price_extremes"]}[Data]
+				in
+				    housing_market_intelligence_platform_vw_2024_sale_price_extremes
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

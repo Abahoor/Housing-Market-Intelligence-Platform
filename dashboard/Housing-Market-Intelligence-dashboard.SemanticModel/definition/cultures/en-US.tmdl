@@ -1,0 +1,629 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "housing_market_intelligence_platform_vw_2024_average_market_profile.average_inventory": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_average_market_profile",
+			          "ConceptualProperty": "Average Inventory"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Average Inventory": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_average_market_profile.median_household_income": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_average_market_profile",
+			          "ConceptualProperty": "Median Household Income"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Median Household Income": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_average_market_profile.average_months_of_supply": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_average_market_profile",
+			          "ConceptualProperty": "Average Months of Supply"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Average Months of Supply": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_average_market_profile.average_monthly_homes_sold": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_average_market_profile",
+			          "ConceptualProperty": "Average Monthly Homes Sold"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Average Monthly Homes Sold": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_average_market_profile.average_monthly_rent": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_average_market_profile",
+			          "ConceptualProperty": "Average Monthly Rent"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Average Monthly Rent": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_average_market_profile.average_home_price": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_average_market_profile",
+			          "ConceptualProperty": "Average Home Price"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Average Home Price": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_average_market_profile.average_days_on_market": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_average_market_profile",
+			          "ConceptualProperty": "Average Days on Market"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Average Days on Market": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_average_market_profile.average_mortgage_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_average_market_profile",
+			          "ConceptualProperty": "Average Mortgage Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Average Mortgage Rate": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_sale_price_extremes.geo_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_sale_price_extremes",
+			          "ConceptualProperty": "geo_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Market": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_sale_price_extremes.price_group": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_sale_price_extremes",
+			          "ConceptualProperty": "price_group"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Price Group": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_price_income_ratio_extremes.geo_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_price_income_ratio_extremes",
+			          "ConceptualProperty": "geo_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Market": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_price_income_ratio_extremes.ratio_group": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_price_income_ratio_extremes",
+			          "ConceptualProperty": "ratio_group"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Affordability Group": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_rent_income_ratio_extremes.geo_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_rent_income_ratio_extremes",
+			          "ConceptualProperty": "geo_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Market": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_rent_income_ratio_extremes.ratio_group": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_rent_income_ratio_extremes",
+			          "ConceptualProperty": "ratio_group"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Affordability Group": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_rent_extremes.geo_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_rent_extremes",
+			          "ConceptualProperty": "geo_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Market": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_rent_extremes.rent_group": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_rent_extremes",
+			          "ConceptualProperty": "rent_group"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Rent Group": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_rent_vs_est_mortgage.monthly_rent": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage",
+			          "ConceptualProperty": "Monthly Rent"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Monthly Rent": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_rent_vs_est_mortgage.estimated_monthly_mortgage": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage",
+			          "ConceptualProperty": "Estimated Monthly Mortgage"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Estimated Monthly Mortgage": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_rent_vs_est_mortgage.renting_costs_more": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage",
+			          "ConceptualProperty": "Renting Costs More"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Renting Costs More": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_rent_vs_est_mortgage.renting_costs_less": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage",
+			          "ConceptualProperty": "Renting Costs Less"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Renting Costs Less": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_rent_vs_est_mortgage.geo_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage",
+			          "ConceptualProperty": "geo_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Market": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_est_mortgage_rent_gap_extremes.geo_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_est_mortgage_rent_gap_extremes",
+			          "ConceptualProperty": "geo_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Market": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_est_mortgage_rent_gap_extremes.gap_direction": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_est_mortgage_rent_gap_extremes",
+			          "ConceptualProperty": "gap_direction"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Cost Direction": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_mortgage_income_burden_extremes.geo_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_mortgage_income_burden_extremes",
+			          "ConceptualProperty": "geo_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Market": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_mortgage_income_burden_extremes.affordability_group": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_mortgage_income_burden_extremes",
+			          "ConceptualProperty": "affordability_group"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Affordability Group": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_market_correlations.relationship": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_market_correlations",
+			          "ConceptualProperty": "relationship"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Relationship": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_supply_heat_candidates.geo_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_supply_heat_candidates",
+			          "ConceptualProperty": "geo_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Market": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_supply_heat_candidates.market_group": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_supply_heat_candidates",
+			          "ConceptualProperty": "market_group"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Market Conditions": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_vw_2024_supply_heat_candidates.avg_monthly_homes_sold": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform vw_2024_supply_heat_candidates",
+			          "ConceptualProperty": "avg_monthly_homes_sold"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Monthly Homes Sold": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "housing_market_intelligence_platform_market_map_2024.geo_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "housing_market_intelligence_platform market_map_2024",
+			          "ConceptualProperty": "geo_name"
+			        }
+			      },
+			      "State": "Generated"
+			    }
+			  }
+			}
+		contentType: json
+

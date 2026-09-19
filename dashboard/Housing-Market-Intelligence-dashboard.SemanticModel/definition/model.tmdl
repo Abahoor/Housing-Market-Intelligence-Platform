@@ -1,0 +1,29 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["housing_market_intelligence_platform vw_2024_average_market_profile","housing_market_intelligence_platform vw_2024_est_mortgage_rent_gap_extremes","housing_market_intelligence_platform vw_2024_market_correlations","housing_market_intelligence_platform vw_2024_mortgage_income_burden_extremes","housing_market_intelligence_platform vw_2024_price_income_ratio_extremes","housing_market_intelligence_platform vw_2024_rent_extremes","housing_market_intelligence_platform vw_2024_rent_income_ratio_extremes","housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage","housing_market_intelligence_platform vw_2024_sale_price_extremes","housing_market_intelligence_platform market_map_2024","housing_market_intelligence_platform vw_2024_supply_heat_candidates"]
+
+annotation PBI_ProTooling = ["DevMode","DaxQueryView_Desktop"]
+
+ref table 'housing_market_intelligence_platform vw_2024_average_market_profile'
+ref table 'housing_market_intelligence_platform vw_2024_est_mortgage_rent_gap_extremes'
+ref table 'housing_market_intelligence_platform vw_2024_market_correlations'
+ref table 'housing_market_intelligence_platform vw_2024_mortgage_income_burden_extremes'
+ref table 'housing_market_intelligence_platform vw_2024_price_income_ratio_extremes'
+ref table 'housing_market_intelligence_platform vw_2024_rent_extremes'
+ref table 'housing_market_intelligence_platform vw_2024_rent_income_ratio_extremes'
+ref table 'housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage'
+ref table 'housing_market_intelligence_platform vw_2024_sale_price_extremes'
+ref table 'housing_market_intelligence_platform market_map_2024'
+ref table 'housing_market_intelligence_platform vw_2024_supply_heat_candidates'
+
+ref cultureInfo en-US
+

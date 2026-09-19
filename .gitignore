@@ -1,0 +1,17 @@
+.env
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+.ipynb_checkpoints/
+
+**/.pbi/cache.abf
+**/.pbi/localSettings.json
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,76 @@
+table 'housing_market_intelligence_platform vw_2024_supply_heat_candidates'
+	lineageTag: afcc5404-2242-4aec-a454-e525942329c5
+
+	column market_group
+		dataType: string
+		lineageTag: b4511ca2-5684-42d0-bca1-73d2fc458a40
+		summarizeBy: none
+		sourceColumn: market_group
+
+		annotation SummarizationSetBy = Automatic
+
+	column geo_id
+		dataType: string
+		lineageTag: 965af16b-c986-4097-89f0-8834c52fe432
+		summarizeBy: none
+		sourceColumn: geo_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column geo_name
+		dataType: string
+		lineageTag: 1c4ab4d8-a3fb-44a8-9d6d-f5110d73e3b0
+		summarizeBy: none
+		sourceColumn: geo_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column avg_inventory
+		dataType: double
+		lineageTag: 71bf673c-1492-4d61-8aae-2f343fb3f33f
+		summarizeBy: sum
+		sourceColumn: avg_inventory
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column avg_months_of_supply
+		dataType: double
+		lineageTag: 385f62a1-4201-4a83-98d2-1c363529cee9
+		summarizeBy: sum
+		sourceColumn: avg_months_of_supply
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column avg_days_on_market
+		dataType: double
+		lineageTag: fa65c272-825a-4258-8b47-131431c38b62
+		summarizeBy: sum
+		sourceColumn: avg_days_on_market
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column avg_monthly_homes_sold
+		dataType: double
+		lineageTag: 1e0c863e-fbad-4f0e-a69e-ecbdd1714bcd
+		summarizeBy: none
+		sourceColumn: avg_monthly_homes_sold
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'housing_market_intelligence_platform vw_2024_supply_heat_candidates' = m
+		mode: import
+		source =
+				let
+				    Source = MySQL.Database("localhost", "housing_market_intelligence_platform", [ReturnSingleDatabase=true]),
+				    housing_market_intelligence_platform_vw_2024_supply_heat_candidates = Source{[Schema="housing_market_intelligence_platform",Item="vw_2024_supply_heat_candidates"]}[Data]
+				in
+				    housing_market_intelligence_platform_vw_2024_supply_heat_candidates
+

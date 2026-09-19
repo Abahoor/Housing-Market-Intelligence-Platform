@@ -1,0 +1,137 @@
+table 'housing_market_intelligence_platform market_map_2024'
+	lineageTag: 775bf5bb-02a6-4d5e-98d2-d950fcfc46f9
+
+	column geo_id
+		dataType: string
+		lineageTag: 5837d312-63ca-483b-887b-06c2fda2652f
+		summarizeBy: none
+		sourceColumn: geo_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column geo_name
+		dataType: string
+		lineageTag: d90852d1-845b-41d7-a7ae-22b266831cab
+		summarizeBy: none
+		sourceColumn: geo_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column geography_type
+		dataType: string
+		lineageTag: cf069019-fd68-4dee-be09-ef5112126026
+		summarizeBy: none
+		sourceColumn: geography_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column latitude
+		dataType: double
+		lineageTag: 5a3b5cb7-90b3-4b4a-a840-db4177fce093
+		dataCategory: Latitude
+		summarizeBy: sum
+		sourceColumn: latitude
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column longitude
+		dataType: double
+		lineageTag: bbf8ef79-0cf7-46f4-b9ce-e3604ce7e2ee
+		dataCategory: Longitude
+		summarizeBy: sum
+		sourceColumn: longitude
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column median_household_income
+		dataType: int64
+		formatString: 0
+		lineageTag: fcd8dbeb-d50f-4fe2-8598-aef35693de4c
+		summarizeBy: sum
+		sourceColumn: median_household_income
+
+		annotation SummarizationSetBy = Automatic
+
+	column avg_sale_price
+		dataType: double
+		lineageTag: 03e0f5d3-deaa-4794-9425-2bb8c6e17bc5
+		summarizeBy: none
+		sourceColumn: avg_sale_price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column avg_rent
+		dataType: double
+		lineageTag: 8efa4f8f-29a2-4fee-b931-6acccf759c8c
+		summarizeBy: sum
+		sourceColumn: avg_rent
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column avg_monthly_homes_sold
+		dataType: double
+		lineageTag: 193fc55e-8f82-48de-9d10-a47ca113c5ab
+		summarizeBy: none
+		sourceColumn: avg_monthly_homes_sold
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column total_homes_sold_2024
+		dataType: double
+		lineageTag: 25000bd8-8047-40a6-85e0-1ac4018f5d2e
+		summarizeBy: sum
+		sourceColumn: total_homes_sold_2024
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column avg_inventory
+		dataType: double
+		lineageTag: 6b7e3ec6-531f-4bfc-af24-44dfca370507
+		summarizeBy: sum
+		sourceColumn: avg_inventory
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column avg_days_on_market
+		dataType: double
+		lineageTag: 9d8a55f4-2fa0-4c1e-8d95-80f372441e70
+		summarizeBy: sum
+		sourceColumn: avg_days_on_market
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column avg_months_of_supply
+		dataType: double
+		lineageTag: 5adf756f-1cfa-4f1d-b630-1183e2c24366
+		summarizeBy: sum
+		sourceColumn: avg_months_of_supply
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'housing_market_intelligence_platform market_map_2024' = m
+		mode: import
+		source =
+				let
+				    Source = MySQL.Database("localhost", "housing_market_intelligence_platform", [ReturnSingleDatabase=true]),
+				    housing_market_intelligence_platform_market_map_2024 = Source{[Schema="housing_market_intelligence_platform",Item="market_map_2024"]}[Data]
+				in
+				    housing_market_intelligence_platform_market_map_2024
+

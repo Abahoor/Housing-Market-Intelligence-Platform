@@ -1,0 +1,165 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1284.5671973270964,
+            "y": 224.37249613157405
+          },
+          "nodeIndex": "housing_market_intelligence_platform vw_2024_average_market_profile",
+          "nodeLineageTag": "4e7971cc-f413-48fd-be41-047143faf89d",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1518.5671973270964,
+            "y": 312.37249613157405
+          },
+          "nodeIndex": "housing_market_intelligence_platform vw_2024_est_mortgage_rent_gap_extremes",
+          "nodeLineageTag": "ea93070c-47db-4ede-bf9e-658e93561191",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1000.5671973270966,
+            "y": 298.37249613157405
+          },
+          "nodeIndex": "housing_market_intelligence_platform vw_2024_market_correlations",
+          "nodeLineageTag": "147fa370-7bce-4f7d-aa87-f6a65c29947f",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 389.96650478998367,
+            "y": -50
+          },
+          "nodeIndex": "housing_market_intelligence_platform vw_2024_mortgage_income_burden_extremes",
+          "nodeLineageTag": "1e64bbb2-ba7c-4aca-a55c-404898d62f7a",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 716.56719732709655,
+            "y": 402.43770991699841
+          },
+          "nodeIndex": "housing_market_intelligence_platform vw_2024_price_income_ratio_extremes",
+          "nodeLineageTag": "f7f90dc9-06e1-45ba-986a-34ece13628e2",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 50,
+            "y": 170.01199569865435
+          },
+          "nodeIndex": "housing_market_intelligence_platform vw_2024_rent_extremes",
+          "nodeLineageTag": "6dd01a4e-04cc-493d-911f-55330f23b577",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 414.27155622167385,
+            "y": 574.74499226314822
+          },
+          "nodeIndex": "housing_market_intelligence_platform vw_2024_rent_income_ratio_extremes",
+          "nodeLineageTag": "86b681ed-4aba-48aa-b2ac-c4c226c02df7",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 336.31148685910222,
+            "y": 251.28646826114687
+          },
+          "nodeIndex": "housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage",
+          "nodeLineageTag": "8097146c-d760-4a79-936e-aea1b8bfe6b6",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 676.935124277567,
+            "y": -14.471269333320038
+          },
+          "nodeIndex": "housing_market_intelligence_platform vw_2024_sale_price_extremes",
+          "nodeLineageTag": "9e272ad3-e512-45e8-9b19-99564a643469",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1752.5671973270964,
+            "y": 274.37249613157411
+          },
+          "nodeIndex": "housing_market_intelligence_platform market_map_2024",
+          "nodeLineageTag": "775bf5bb-02a6-4d5e-98d2-d950fcfc46f9",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1986.5671973270964,
+            "y": 300.37249613157411
+          },
+          "nodeIndex": "housing_market_intelligence_platform vw_2024_supply_heat_candidates",
+          "nodeLineageTag": "afcc5404-2242-4aec-a454-e525942329c5",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

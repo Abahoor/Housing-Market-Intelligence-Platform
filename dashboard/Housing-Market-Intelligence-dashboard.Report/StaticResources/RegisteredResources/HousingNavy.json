@@ -1,0 +1,79 @@
+{
+  "name": "Housing Market Intelligence — Navy",
+  "dataColors": [
+    "#38BDF8",
+    "#2DD4BF",
+    "#F59E0B",
+    "#FB7185"
+  ],
+  "background": "#111C2E",
+  "foreground": "#F8FAFC",
+  "tableAccent": "#38BDF8",
+  "secondaryBackground": "#162338",
+  "foregroundNeutralSecondary": "#94A3B8",
+  "textClasses": {
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 32,
+      "color": "#F8FAFC"
+    },
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 14,
+      "color": "#F8FAFC"
+    },
+    "header": {
+      "fontFace": "Segoe UI",
+      "fontSize": 12,
+      "color": "#F8FAFC"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#94A3B8"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#F8FAFC"
+              }
+            },
+            "fontSize": 14,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#111C2E"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "color": {
+              "solid": {
+                "color": "#26354A"
+              }
+            },
+            "show": true,
+            "radius": 8
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ]
+      }
+    }
+  }
+}

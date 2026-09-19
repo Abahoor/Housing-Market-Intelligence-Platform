@@ -1,0 +1,71 @@
+table 'housing_market_intelligence_platform vw_2024_rent_income_ratio_extremes'
+	lineageTag: 86b681ed-4aba-48aa-b2ac-c4c226c02df7
+
+	column ratio_group
+		dataType: string
+		lineageTag: a7960726-52ea-4af0-8f17-c0fc4765c7a5
+		summarizeBy: none
+		sourceColumn: ratio_group
+
+		annotation SummarizationSetBy = Automatic
+
+	column geo_id
+		dataType: string
+		lineageTag: 6b2ce25e-1b2f-4e17-b171-cc2f8025e195
+		summarizeBy: none
+		sourceColumn: geo_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column geo_name
+		dataType: string
+		lineageTag: b09b2af4-a1e5-46b9-8038-37632c703346
+		summarizeBy: none
+		sourceColumn: geo_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column avg_rent
+		dataType: double
+		lineageTag: dec7ba08-b530-4dfb-9e0a-904661e78536
+		summarizeBy: sum
+		sourceColumn: avg_rent
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column median_household_income
+		dataType: double
+		lineageTag: 96dc94c5-960f-48ae-bfdd-f20b9bbe6ec0
+		summarizeBy: sum
+		sourceColumn: median_household_income
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column rent_to_income_pct
+		dataType: double
+		lineageTag: a2cab4d8-f00b-414e-be8e-abfca56bce01
+		summarizeBy: sum
+		sourceColumn: rent_to_income_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'housing_market_intelligence_platform vw_2024_rent_income_ratio_extremes' = m
+		mode: import
+		source =
+				let
+				    Source = MySQL.Database("localhost", "housing_market_intelligence_platform", [ReturnSingleDatabase=true]),
+				    housing_market_intelligence_platform_vw_2024_rent_income_ratio_extremes = Source{[Schema="housing_market_intelligence_platform",Item="vw_2024_rent_income_ratio_extremes"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(housing_market_intelligence_platform_vw_2024_rent_income_ratio_extremes,{{"median_household_income", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

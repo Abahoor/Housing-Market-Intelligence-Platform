@@ -1,0 +1,43 @@
+table 'housing_market_intelligence_platform vw_2024_market_correlations'
+	lineageTag: 147fa370-7bce-4f7d-aa87-f6a65c29947f
+
+	column relationship
+		dataType: string
+		lineageTag: 8a4eaeed-57e9-49bc-b10a-ae0b700457bf
+		summarizeBy: none
+		sourceColumn: relationship
+
+		annotation SummarizationSetBy = Automatic
+
+	column markets_included
+		dataType: int64
+		formatString: 0
+		lineageTag: 663b053f-2962-4b1d-b220-ab68d8fa3ca7
+		summarizeBy: none
+		sourceColumn: markets_included
+
+		annotation SummarizationSetBy = Automatic
+
+	column correlation
+		dataType: double
+		lineageTag: 3010f58a-d1b9-4855-8f52-671937121775
+		summarizeBy: sum
+		sourceColumn: correlation
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'housing_market_intelligence_platform vw_2024_market_correlations' = m
+		mode: import
+		source =
+				let
+				    Source = MySQL.Database("localhost", "housing_market_intelligence_platform", [ReturnSingleDatabase=true]),
+				    housing_market_intelligence_platform_vw_2024_market_correlations = Source{[Schema="housing_market_intelligence_platform",Item="vw_2024_market_correlations"]}[Data]
+				in
+				    housing_market_intelligence_platform_vw_2024_market_correlations
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,70 @@
+table 'housing_market_intelligence_platform vw_2024_est_mortgage_rent_gap_extremes'
+	lineageTag: ea93070c-47db-4ede-bf9e-658e93561191
+
+	column gap_direction
+		dataType: string
+		lineageTag: 63c4a617-9f86-420e-af6a-7e975dc00618
+		summarizeBy: none
+		sourceColumn: gap_direction
+
+		annotation SummarizationSetBy = Automatic
+
+	column geo_id
+		dataType: string
+		lineageTag: 2d7b473e-5a5f-4fa5-91e9-24cd1cd1e21d
+		summarizeBy: none
+		sourceColumn: geo_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column geo_name
+		dataType: string
+		lineageTag: 94dfaa10-be92-4414-a711-8b35bc1ad81a
+		summarizeBy: none
+		sourceColumn: geo_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column avg_rent
+		dataType: double
+		lineageTag: 3af11a47-4633-480f-a51f-58cd85977d65
+		summarizeBy: sum
+		sourceColumn: avg_rent
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column estimated_monthly_mortgage
+		dataType: double
+		lineageTag: 69273c1b-8ed7-4519-8951-7738985fc3d1
+		summarizeBy: sum
+		sourceColumn: estimated_monthly_mortgage
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column monthly_gap
+		dataType: double
+		lineageTag: efba6fc6-ec19-4c6e-bd14-c725169938c7
+		summarizeBy: sum
+		sourceColumn: monthly_gap
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'housing_market_intelligence_platform vw_2024_est_mortgage_rent_gap_extremes' = m
+		mode: import
+		source =
+				let
+				    Source = MySQL.Database("localhost", "housing_market_intelligence_platform", [ReturnSingleDatabase=true]),
+				    housing_market_intelligence_platform_vw_2024_est_mortgage_rent_gap_extremes = Source{[Schema="housing_market_intelligence_platform",Item="vw_2024_est_mortgage_rent_gap_extremes"]}[Data]
+				in
+				    housing_market_intelligence_platform_vw_2024_est_mortgage_rent_gap_extremes
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

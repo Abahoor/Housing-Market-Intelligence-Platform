@@ -1,0 +1,10 @@
+EVALUATE
+UNION(
+ROW("Check","Price","Result",CONCATENATEX(VALUES('housing_market_intelligence_platform vw_2024_sale_price_extremes'[price_group]),[price_group]," | ")),
+ROW("Check","Rent","Result",CONCATENATEX(VALUES('housing_market_intelligence_platform vw_2024_rent_extremes'[rent_group]),[rent_group]," | ")),
+ROW("Check","Price ratio","Result",CONCATENATEX(VALUES('housing_market_intelligence_platform vw_2024_price_income_ratio_extremes'[ratio_group]),[ratio_group]," | ")),
+ROW("Check","Rent burden","Result",CONCATENATEX(VALUES('housing_market_intelligence_platform vw_2024_rent_income_ratio_extremes'[ratio_group]),[ratio_group]," | ")),
+ROW("Check","Mortgage burden","Result",CONCATENATEX(VALUES('housing_market_intelligence_platform vw_2024_mortgage_income_burden_extremes'[affordability_group]),[affordability_group]," | ")),
+ROW("Check","Gap","Result",CONCATENATEX(VALUES('housing_market_intelligence_platform vw_2024_est_mortgage_rent_gap_extremes'[gap_direction]),[gap_direction]," | ")),
+ROW("Check","Gap minus mortgage + rent max error","Result",FORMAT(MAXX('housing_market_intelligence_platform vw_2024_est_mortgage_rent_gap_extremes',ABS([monthly_gap]-([estimated_monthly_mortgage]-[avg_rent]))),"0.000"))
+)

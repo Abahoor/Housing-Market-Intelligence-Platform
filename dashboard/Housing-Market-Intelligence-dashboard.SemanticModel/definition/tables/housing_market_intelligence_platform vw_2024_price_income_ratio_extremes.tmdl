@@ -1,0 +1,50 @@
+table 'housing_market_intelligence_platform vw_2024_price_income_ratio_extremes'
+	lineageTag: f7f90dc9-06e1-45ba-986a-34ece13628e2
+
+	column ratio_group
+		dataType: string
+		lineageTag: 76ab023c-2f59-4ef4-b3c2-c49825a89c3a
+		summarizeBy: none
+		sourceColumn: ratio_group
+
+		annotation SummarizationSetBy = Automatic
+
+	column geo_id
+		dataType: string
+		lineageTag: e8ab03df-f912-4823-81c9-28382cffd352
+		summarizeBy: none
+		sourceColumn: geo_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column geo_name
+		dataType: string
+		lineageTag: d05e5605-c381-40a8-9e39-e69d357fabf0
+		summarizeBy: none
+		sourceColumn: geo_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column home_price_to_income_ratio
+		dataType: double
+		lineageTag: 66fe686c-d26d-487c-abfe-a6e25b073853
+		summarizeBy: sum
+		sourceColumn: home_price_to_income_ratio
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'housing_market_intelligence_platform vw_2024_price_income_ratio_extremes' = m
+		mode: import
+		source =
+				let
+				    Source = MySQL.Database("localhost", "housing_market_intelligence_platform", [ReturnSingleDatabase=true]),
+				    housing_market_intelligence_platform_vw_2024_price_income_ratio_extremes = Source{[Schema="housing_market_intelligence_platform",Item="vw_2024_price_income_ratio_extremes"]}[Data]
+				in
+				    housing_market_intelligence_platform_vw_2024_price_income_ratio_extremes
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

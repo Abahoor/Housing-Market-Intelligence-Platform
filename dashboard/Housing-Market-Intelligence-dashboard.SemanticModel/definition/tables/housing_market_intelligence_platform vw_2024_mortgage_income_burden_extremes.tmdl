@@ -1,0 +1,81 @@
+table 'housing_market_intelligence_platform vw_2024_mortgage_income_burden_extremes'
+	lineageTag: 1e64bbb2-ba7c-4aca-a55c-404898d62f7a
+
+	column affordability_group
+		dataType: string
+		lineageTag: 66588b21-6154-4110-ba2a-e3a0a2700a6f
+		summarizeBy: none
+		sourceColumn: affordability_group
+
+		annotation SummarizationSetBy = Automatic
+
+	column geo_id
+		dataType: string
+		lineageTag: 67d3dc4d-c241-4ab9-a6b5-baa747fd9210
+		summarizeBy: none
+		sourceColumn: geo_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column geo_name
+		dataType: string
+		lineageTag: 624687b4-b042-439b-a2dc-ed9d6b64ea89
+		summarizeBy: none
+		sourceColumn: geo_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column avg_sale_price
+		dataType: double
+		lineageTag: 4edbfeae-5c34-4bdb-b7ba-cf6bec8666a4
+		summarizeBy: none
+		sourceColumn: avg_sale_price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column median_household_income
+		dataType: double
+		lineageTag: c475a0cb-8700-4ce6-9b46-1b47f683b7c5
+		summarizeBy: sum
+		sourceColumn: median_household_income
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column estimated_monthly_mortgage
+		dataType: double
+		lineageTag: f11795cc-fea6-48ce-976f-0cd60782f9cb
+		summarizeBy: sum
+		sourceColumn: estimated_monthly_mortgage
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column mortgage_income_pct
+		dataType: double
+		lineageTag: 5919154d-8ba3-4bca-8311-14c8904345b0
+		summarizeBy: sum
+		sourceColumn: mortgage_income_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'housing_market_intelligence_platform vw_2024_mortgage_income_burden_extremes' = m
+		mode: import
+		source =
+				let
+				    Source = MySQL.Database("localhost", "housing_market_intelligence_platform", [ReturnSingleDatabase=true]),
+				    housing_market_intelligence_platform_vw_2024_mortgage_income_burden_extremes = Source{[Schema="housing_market_intelligence_platform",Item="vw_2024_mortgage_income_burden_extremes"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(housing_market_intelligence_platform_vw_2024_mortgage_income_burden_extremes,{{"median_household_income", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

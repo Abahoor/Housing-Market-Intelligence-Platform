@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Housing-Market-Intelligence-dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "509e7d32-1599-4139-8c10-82572decb51e"
+  }
+}

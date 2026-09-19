@@ -1,0 +1,106 @@
+table 'housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage'
+	lineageTag: 8097146c-d760-4a79-936e-aea1b8bfe6b6
+
+	measure 'Monthly Rent' = AVERAGE('housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage'[avg_rent])
+		formatString: $#,0
+		lineageTag: b797118c-71a8-400a-ab4a-ec5903630281
+
+	measure 'Estimated Monthly Mortgage' = AVERAGE('housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage'[estimated_monthly_mortgage])
+		formatString: $#,0
+		lineageTag: c6ec05be-fcd3-47d7-bea7-769b5b0a0be2
+
+	measure 'Renting Costs Less' = CALCULATE(DISTINCTCOUNT('housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage'[geo_id]), REMOVEFILTERS(), 'housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage'[mortgage_minus_rent] > 0)
+		formatString: #,0
+		lineageTag: c27c7290-0e05-46fe-9e94-e53ea1392d01
+
+	measure 'Renting Costs More' = CALCULATE(DISTINCTCOUNT('housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage'[geo_id]), REMOVEFILTERS(), 'housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage'[mortgage_minus_rent] < 0)
+		formatString: #,0
+		lineageTag: 59467b73-6a1e-413c-98c5-7ac2acd1e8c2
+
+	column geo_id
+		dataType: string
+		lineageTag: 1215cfbd-c7e6-4825-9743-e569baacef0c
+		summarizeBy: none
+		sourceColumn: geo_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column geo_name
+		dataType: string
+		lineageTag: 4fae4af9-8697-4a71-bfab-36fdf333ab80
+		summarizeBy: none
+		sourceColumn: geo_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column avg_sale_price
+		dataType: double
+		lineageTag: 2f6c3ff2-fd59-4c18-9a84-f1c0ef7e86c5
+		summarizeBy: none
+		sourceColumn: avg_sale_price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column avg_rent
+		dataType: double
+		lineageTag: ec43a9a6-5648-4776-ae01-ebc6e53a2ac0
+		summarizeBy: sum
+		sourceColumn: avg_rent
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column mortgage_rate
+		dataType: double
+		lineageTag: 462f3d82-e4cc-4e19-acac-6434cc13d55c
+		summarizeBy: sum
+		sourceColumn: mortgage_rate
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column estimated_monthly_mortgage
+		dataType: double
+		lineageTag: 43b042c2-a277-4162-9fb7-1804a05aa847
+		summarizeBy: sum
+		sourceColumn: estimated_monthly_mortgage
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column mortgage_minus_rent
+		dataType: double
+		lineageTag: 200d3d66-52b7-4c38-a0c8-c4df5c4ebc16
+		summarizeBy: sum
+		sourceColumn: mortgage_minus_rent
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column affordability_result
+		dataType: string
+		lineageTag: 70eecac0-97d4-47e0-af02-44fa5565531c
+		summarizeBy: none
+		sourceColumn: affordability_result
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'housing_market_intelligence_platform vw_2024_rent_vs_est_mortgage' = m
+		mode: import
+		source =
+				let
+				    Source = MySQL.Database("localhost", "housing_market_intelligence_platform", [ReturnSingleDatabase=true]),
+				    housing_market_intelligence_platform_vw_2024_rent_vs_est_mortgage = Source{[Schema="housing_market_intelligence_platform",Item="vw_2024_rent_vs_est_mortgage"]}[Data]
+				in
+				    housing_market_intelligence_platform_vw_2024_rent_vs_est_mortgage
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

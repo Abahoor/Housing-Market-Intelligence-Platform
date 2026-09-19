@@ -1,0 +1,206 @@
+[
+    [
+        "NAME",
+        "B19013_001E",
+        "metropolitan statistical area/micropolitan statistical area",
+        "metropolitan division"
+    ],
+    [
+        "Anaheim-Santa Ana-Irvine, CA Metro Division; Los Angeles-Long Beach-Anaheim, CA Metro Area",
+        "116289",
+        "31080",
+        "11244"
+    ],
+    [
+        "Los Angeles-Long Beach-Glendale, CA Metro Division; Los Angeles-Long Beach-Anaheim, CA Metro Area",
+        "90112",
+        "31080",
+        "31084"
+    ],
+    [
+        "Fort Lauderdale-Pompano Beach-Sunrise, FL Metro Division; Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",
+        "77633",
+        "33100",
+        "22744"
+    ],
+    [
+        "Miami-Miami Beach-Kendall, FL Metro Division; Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",
+        "71753",
+        "33100",
+        "33124"
+    ],
+    [
+        "West Palm Beach-Boca Raton-Delray Beach, FL Metro Division; Miami-Fort Lauderdale-West Palm Beach, FL Metro Area",
+        "83581",
+        "33100",
+        "48424"
+    ],
+    [
+        "Detroit-Dearborn-Livonia, MI Metro Division; Detroit-Warren-Dearborn, MI Metro Area",
+        "60539",
+        "19820",
+        "19804"
+    ],
+    [
+        "Warren-Troy-Farmington Hills, MI Metro Division; Detroit-Warren-Dearborn, MI Metro Area",
+        "88280",
+        "19820",
+        "47664"
+    ],
+    [
+        "Arlington-Alexandria-Reston, VA-WV Metro Division; Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",
+        "140012",
+        "47900",
+        "11694"
+    ],
+    [
+        "Frederick-Gaithersburg-Bethesda, MD Metro Division; Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",
+        "129927",
+        "47900",
+        "23224"
+    ],
+    [
+        "Washington, DC-MD Metro Division; Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",
+        "106950",
+        "47900",
+        "47764"
+    ],
+    [
+        "Oakland-Fremont-Berkeley, CA Metro Division; San Francisco-Oakland-Fremont, CA Metro Area",
+        "128560",
+        "41860",
+        "36084"
+    ],
+    [
+        "San Francisco-San Mateo-Redwood City, CA Metro Division; San Francisco-Oakland-Fremont, CA Metro Area",
+        "148514",
+        "41860",
+        "41884"
+    ],
+    [
+        "San Rafael, CA Metro Division; San Francisco-Oakland-Fremont, CA Metro Area",
+        "149091",
+        "41860",
+        "42034"
+    ],
+    [
+        "Dallas-Plano-Irving, TX Metro Division; Dallas-Fort Worth-Arlington, TX Metro Area",
+        "92486",
+        "19100",
+        "19124"
+    ],
+    [
+        "Fort Worth-Arlington-Grapevine, TX Metro Division; Dallas-Fort Worth-Arlington, TX Metro Area",
+        "85506",
+        "19100",
+        "23104"
+    ],
+    [
+        "Boston, MA Metro Division; Boston-Cambridge-Newton, MA-NH Metro Area",
+        "111800",
+        "14460",
+        "14454"
+    ],
+    [
+        "Cambridge-Newton-Framingham, MA Metro Division; Boston-Cambridge-Newton, MA-NH Metro Area",
+        "120883",
+        "14460",
+        "15764"
+    ],
+    [
+        "Rockingham County-Strafford County, NH Metro Division; Boston-Cambridge-Newton, MA-NH Metro Area",
+        "110161",
+        "14460",
+        "40484"
+    ],
+    [
+        "Chicago-Naperville-Schaumburg, IL Metro Division; Chicago-Naperville-Elgin, IL-IN Metro Area",
+        "90170",
+        "16980",
+        "16984"
+    ],
+    [
+        "Elgin, IL Metro Division; Chicago-Naperville-Elgin, IL-IN Metro Area",
+        "100022",
+        "16980",
+        "20994"
+    ],
+    [
+        "Lake County, IL Metro Division; Chicago-Naperville-Elgin, IL-IN Metro Area",
+        "110416",
+        "16980",
+        "29404"
+    ],
+    [
+        "Lake County-Porter County-Jasper County, IN Metro Division; Chicago-Naperville-Elgin, IL-IN Metro Area",
+        "75120",
+        "16980",
+        "29414"
+    ],
+    [
+        "Camden, NJ Metro Division; Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",
+        "99795",
+        "37980",
+        "15804"
+    ],
+    [
+        "Montgomery County-Bucks County-Chester County, PA Metro Division; Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",
+        "117678",
+        "37980",
+        "33874"
+    ],
+    [
+        "Philadelphia, PA Metro Division; Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",
+        "67714",
+        "37980",
+        "37964"
+    ],
+    [
+        "Wilmington, DE-MD-NJ Metro Division; Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",
+        "90224",
+        "37980",
+        "48864"
+    ],
+    [
+        "Lakewood-New Brunswick, NJ Metro Division; New York-Newark-Jersey City, NY-NJ Metro Area",
+        "112244",
+        "35620",
+        "29484"
+    ],
+    [
+        "Nassau County-Suffolk County, NY Metro Division; New York-Newark-Jersey City, NY-NJ Metro Area",
+        "137898",
+        "35620",
+        "35004"
+    ],
+    [
+        "Newark, NJ Metro Division; New York-Newark-Jersey City, NY-NJ Metro Area",
+        "105500",
+        "35620",
+        "35084"
+    ],
+    [
+        "New York-Jersey City-White Plains, NY-NJ Metro Division; New York-Newark-Jersey City, NY-NJ Metro Area",
+        "87995",
+        "35620",
+        "35614"
+    ],
+    [
+        "Everett, WA Metro Division; Seattle-Tacoma-Bellevue, WA Metro Area",
+        "111246",
+        "42660",
+        "21794"
+    ],
+    [
+        "Seattle-Bellevue-Kent, WA Metro Division; Seattle-Tacoma-Bellevue, WA Metro Area",
+        "124746",
+        "42660",
+        "42644"
+    ],
+    [
+        "Tacoma-Lakewood, WA Metro Division; Seattle-Tacoma-Bellevue, WA Metro Area",
+        "99564",
+        "42660",
+        "45104"
+    ]
+]
