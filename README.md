@@ -417,7 +417,7 @@ Update the MySQL data-source credentials if required, and refresh the model afte
 
 ## Author
 
-**[Your Name]**
+**[Abahoor Lion]**
 
 - LinkedIn: (www.linkedin.com/in/abahoor-lion)
 - Email: (abahoorlion@gmail.com)
