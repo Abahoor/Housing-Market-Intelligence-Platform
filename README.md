@@ -98,13 +98,13 @@ Counts below exclude CSV header rows.
 ## Architecture
 
 ```mermaid
-flowchart LR
-    A[Source Data] --> B[Python ETL and Validation]
-    B --> C[Geography Standardization]
-    C --> D[Integrated CSV Outputs]
-    D --> E[MySQL Tables]
-    E --> F[Analytical SQL Views]
-    F --> G[Power BI Dashboard]
+graph LR
+    A["Source Data"] --> B["Python ETL and Validation"]
+    B --> C["Geography Standardization"]
+    C --> D["Integrated CSV Outputs"]
+    D --> E["MySQL Tables"]
+    E --> F["Analytical SQL Views"]
+    F --> G["Power BI Dashboard"]
 ```
 
 Four source-specific pipelines perform extraction, transformation, and validation. The geography-integration stage then connects Redfin and Zillow identifiers to a standard Census `geo_id`. MySQL provides the relational and analytical layer, while Power BI imports purpose-built views rather than repeating calculations inside visuals.
@@ -130,14 +130,14 @@ The solution was a reusable `geography_bridge` that stores:
 The bridge is created by normalizing market names, applying a small set of manually verified name corrections, matching Redfin IDs to Census geography codes, and validating one-to-one mappings. It is then joined back to the monthly Redfin and Zillow records.
 
 ```mermaid
-flowchart LR
-    Z[Zillow ID and Name] --> N[Normalize and Match Names]
-    R[Redfin ID and Name] --> N
-    R --> C[Match Redfin ID to Census geo_id]
-    U[Census Geography] --> C
-    N --> B[Standard Geography Bridge]
+graph LR
+    Z["Zillow ID and Name"] --> N["Normalize and Match Names"]
+    R["Redfin ID and Name"] --> N
+    R --> C["Match Redfin ID to Census geo_id"]
+    U["Census Geography"] --> C
+    N --> B["Standard Geography Bridge"]
     C --> B
-    B --> O[Integrated Redfin and Zillow Data]
+    B --> O["Integrated Redfin and Zillow Data"]
 ```
 
 Validation confirms that the integrated Redfin and Zillow records contain no missing `geo_id` values and no duplicate market-month combinations.
